@@ -7,6 +7,8 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 
+import Carousel from './Carousel';
+
 export default function Hero2() {
   return (
     <Flex
