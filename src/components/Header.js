@@ -161,18 +161,22 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
       display={'block'}
       p={2}
       rounded={'md'}
-      _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}
+      _hover={{ bg: useColorModeValue('blue.200', 'gray.900') }}
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
-          <Text
-            transition={'all .3s ease'}
-            _groupHover={{ color: 'pink.400' }}
-            fontWeight={500}
-          >
-            {label}
-          </Text>
-          <Text fontSize={'sm'}>{subLabel}</Text>
+          <div>
+            <Text
+              transition={'all .3s ease'}
+              _groupHover={{ color: 'white' }}
+              fontWeight={500}
+            >
+              {label}
+            </Text>
+            <Text fontSize={'sm'} color={'black'} _hover={{ color: 'white' }}>
+              {subLabel}
+            </Text>
+          </div>
         </Box>
         <Flex
           transition={'all .3s ease'}
@@ -183,7 +187,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           align={'center'}
           flex={1}
         >
-          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
