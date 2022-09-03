@@ -65,7 +65,12 @@ const Product2 = ({ product }) => {
             bg="gray.900"
             roundedBottom="lg"
           >
-            <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
+            <chakra.h1
+              color="white"
+              fontWeight="bold"
+              fontSize="lg"
+              _hover={{ color: 'yellow.200' }}
+            >
               ${product.price}
             </chakra.h1>
             <chakra.button
