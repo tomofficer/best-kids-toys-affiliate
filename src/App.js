@@ -41,32 +41,6 @@ function App() {
       <ChakraProvider theme={theme}>
         <Header />
         <Home />
-
-        <Hero6 />
-        <Carousel3 />
-        <Carousel4 />
-
-        <Box textAlign="center" fontSize="xl">
-          <Grid minH="100vh" p={3}>
-            {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
-            <VStack spacing={8}>
-              '
-              <Hero />
-              <Hero2 />
-              <Hero3 />
-              <Hero4 />
-              <Hero5 />
-              <Hero7 />
-              <Product />
-              <Product2 />
-              <Product3 />
-              <Product4 />
-              <CallToActionSmall />
-              <CallToActionMedium />
-              <CallToActionLarge />
-            </VStack>
-          </Grid>
-        </Box>
         <Footer />
       </ChakraProvider>
     </BrowserRouter>

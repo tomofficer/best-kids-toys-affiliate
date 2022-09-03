@@ -90,7 +90,6 @@ const Product2 = () => {
           </Flex>
         </Box>
       </Flex>
-      ;
     </div>
   );
 };
