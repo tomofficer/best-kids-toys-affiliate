@@ -45,7 +45,7 @@ export default function Hero2() {
               Looking for that perfect birthday gift? We have all the best rated
               kids toys of 2022!
             </Text>
-            <Stack direction={'row'}>
+            <Stack direction={'row'} style={{ marginBottom: '300px' }}>
               <Button
                 bg={'blue.400'}
                 rounded={'full'}
