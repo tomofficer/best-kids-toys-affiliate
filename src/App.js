@@ -1,4 +1,6 @@
 import React from 'react';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+
 import {
   ChakraProvider,
   Box,
@@ -29,36 +31,45 @@ import Product5 from './components/Product5';
 import CallToActionSmall from './components/CallToActionSmall';
 import CallToActionMedium from './components/CallToActionMedium';
 import CallToActionLarge from './components/CallToActionLarge';
+import Carousel3 from './components/Carousel3';
+import Carousel4 from './components/Carousel4';
+import Home from './Home';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Header />
-      <Hero6 />
+    <BrowserRouter>
+      <ChakraProvider theme={theme}>
+        <Header />
+        <Home />
 
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
-          <VStack spacing={8}>
-            '
-            <Hero />
-            <Hero2 />
-            <Hero3 />
-            <Hero4 />
-            <Hero5 />
-            <Hero7 />
-            <Product />
-            <Product2 />
-            <Product3 />
-            <Product4 />
-            <CallToActionSmall />
-            <CallToActionMedium />
-            <CallToActionLarge />
-          </VStack>
-        </Grid>
-      </Box>
-      <Footer />
-    </ChakraProvider>
+        <Hero6 />
+        <Carousel3 />
+        <Carousel4 />
+
+        <Box textAlign="center" fontSize="xl">
+          <Grid minH="100vh" p={3}>
+            {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
+            <VStack spacing={8}>
+              '
+              <Hero />
+              <Hero2 />
+              <Hero3 />
+              <Hero4 />
+              <Hero5 />
+              <Hero7 />
+              <Product />
+              <Product2 />
+              <Product3 />
+              <Product4 />
+              <CallToActionSmall />
+              <CallToActionMedium />
+              <CallToActionLarge />
+            </VStack>
+          </Grid>
+        </Box>
+        <Footer />
+      </ChakraProvider>
+    </BrowserRouter>
   );
 }
 

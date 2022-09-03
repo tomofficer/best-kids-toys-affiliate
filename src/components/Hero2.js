@@ -51,7 +51,7 @@ export default function Hero2() {
               color={'white'}
               _hover={{ bg: 'whiteAlpha.500' }}
             >
-              Show me more
+              Subscribe to our newsletter!
             </Button>
           </Stack>
         </Stack>
