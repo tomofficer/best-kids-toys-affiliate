@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex, Box, chakra, Image } from '@chakra-ui/react';
 
-const Product2 = () => {
+const Product2 = ({ product }) => {
   return (
     <div>
       <Flex
@@ -34,7 +34,7 @@ const Product2 = () => {
               fontSize="3xl"
               textTransform="uppercase"
             >
-              NIKE AIR
+              {product.title}
             </chakra.h1>
             <chakra.p
               mt={1}
@@ -44,8 +44,7 @@ const Product2 = () => {
                 color: 'gray.400',
               }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos
-              quidem sequi illum facere recusandae voluptatibus
+              {product.description}
             </chakra.p>
           </Box>
 
@@ -54,7 +53,7 @@ const Product2 = () => {
             w="full"
             fit="cover"
             mt={2}
-            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+            src={product.imgPath}
             alt="NIKE AIR"
           />
 
@@ -67,7 +66,7 @@ const Product2 = () => {
             roundedBottom="lg"
           >
             <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
-              $129
+              ${product.price}
             </chakra.h1>
             <chakra.button
               px={2}
@@ -79,13 +78,13 @@ const Product2 = () => {
               rounded="lg"
               textTransform="uppercase"
               _hover={{
-                bg: 'gray.200',
+                bg: 'yellow.200',
               }}
               _focus={{
                 bg: 'gray.400',
               }}
             >
-              Add to cart
+              View on Amazon
             </chakra.button>
           </Flex>
         </Box>

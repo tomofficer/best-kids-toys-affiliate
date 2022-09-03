@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Grid, VStack } from '@chakra-ui/react';
 import Hero2 from './components/Hero2';
 import Carousel from './components/Carousel4';
-import Product from './components/Product2';
+import ProductMap from './components/ProductMap';
 import Hero from './components/Hero7';
 
 const Home = () => {
@@ -13,9 +13,9 @@ const Home = () => {
         <Grid minH="100vh" p={3}>
           {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
           <VStack spacing={8}>
-            <Carousel />
-            <Product />
+            <ProductMap />
             <Hero />
+            <Carousel />
           </VStack>
         </Grid>
       </Box>

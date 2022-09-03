@@ -49,7 +49,8 @@ export default function Hero2() {
               bg={'whiteAlpha.300'}
               rounded={'full'}
               color={'white'}
-              _hover={{ bg: 'whiteAlpha.500' }}
+              // _hover={{ bg: 'whiteAlpha.500' }}
+              _hover={{ bg: 'yellow.200', color: 'black' }}
             >
               Subscribe to our newsletter!
             </Button>
