@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Flex, Box, chakra, Image } from '@chakra-ui/react';
 
 const Product2 = ({ product }) => {
+  const [stateTesting, setStateTesting] = useState(false);
+
   return (
     <div>
       <Flex
@@ -73,6 +75,7 @@ const Product2 = ({ product }) => {
             >
               ${product.price}
             </chakra.h1>
+
             <chakra.button
               px={2}
               py={1}

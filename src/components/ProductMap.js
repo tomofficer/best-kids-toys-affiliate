@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Center, Box, Button } from '@chakra-ui/react';
 
 import Product from './Product2';
+import Carousel5 from './Carousel5';
 
 const ProductMap = () => {
   //product data
@@ -89,9 +90,8 @@ const ProductMap = () => {
           ))}
         </Center>
       </Box>
-
       <Box bg="#edf3f8" pb={5}>
-        <Button
+        {/* <Button
           rounded={'full'}
           bg={'blue.400'}
           color={'white'}
@@ -104,7 +104,7 @@ const ProductMap = () => {
           onClick={() => showMoreClick()}
         >
           Show Me More Toys!
-        </Button>
+        </Button> */}
       </Box>
     </div>
   );

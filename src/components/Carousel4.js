@@ -22,7 +22,7 @@ export default function Carousel4() {
   };
   const slides = [
     {
-      img: 'https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/yanapi-senaud-87n4IpQl6c4-unsplash_riE8JgLtI.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662322089096',
       label: 'First Slide',
       description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
     },

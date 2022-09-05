@@ -41,11 +41,11 @@ export default function Hero2() {
               fontWeight={700}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: '4xl', lg: '5xl' })}
+              fontFamily="Poppins.700"
             >
-              Looking for that perfect birthday gift? We have all the best rated
-              kids toys of 2022!
+              Been looking for that perfect birthday gift? Look no further!
             </Text>
-            <Stack direction={'row'} style={{ marginBottom: '300px' }}>
+            <Stack direction={'row'} style={{ marginBottom: '350px' }}>
               <Button
                 bg={'blue.400'}
                 rounded={'full'}
@@ -53,7 +53,7 @@ export default function Hero2() {
                 _hover={{ bg: 'blue.500' }}
                 onClick={() => scrollClickHandle()}
               >
-                Let's get started!
+                Quick Browse
               </Button>
               <Button
                 bg={'whiteAlpha.300'}
@@ -62,7 +62,7 @@ export default function Hero2() {
                 // _hover={{ bg: 'whiteAlpha.500' }}
                 _hover={{ bg: 'gray.200', color: 'black' }}
               >
-                Not sure where to start?
+                Know what you're looking for?
               </Button>
             </Stack>
           </Stack>

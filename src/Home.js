@@ -15,7 +15,7 @@ const Home = () => {
           <VStack spacing={8}>
             <ProductMap />
             <Hero />
-            <Carousel />
+            {/* <Carousel /> */}
           </VStack>
         </Grid>
       </Box>
