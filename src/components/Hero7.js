@@ -50,12 +50,6 @@ const Hero7 = () => {
     return num % 2 === 0;
   };
 
-  useEffect(() => {
-    isEven(4);
-    console.log('is even:', isEven(4));
-    console.log('is odd:', isEven(5));
-  }, []);
-
   return (
     <div>
       {toyList.map(toy => (
@@ -68,6 +62,7 @@ const Hero7 = () => {
                   md: 2,
                 }}
                 spacing={0}
+                p={20}
               >
                 <Flex bg="brand.400">
                   <Image
@@ -81,7 +76,7 @@ const Hero7 = () => {
                     }}
                     bg="gray.100"
                     loading="lazy"
-                    opacity={0.4}
+                    // opacity={0.4}
                   />
                 </Flex>
                 <Flex
@@ -182,6 +177,7 @@ const Hero7 = () => {
                   md: 2,
                 }}
                 spacing={0}
+                p={20}
               >
                 <Flex
                   direction="column"
@@ -282,7 +278,7 @@ const Hero7 = () => {
                     }}
                     bg="gray.100"
                     loading="lazy"
-                    opacity={0.4}
+                    // opacity={0.4}
                   />
                 </Flex>
               </SimpleGrid>
