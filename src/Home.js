@@ -4,6 +4,7 @@ import Hero2 from './components/Hero2';
 import Carousel from './components/Carousel4';
 import ProductMap from './components/ProductMap';
 import Hero from './components/Hero7';
+import Hero7Flipped from './components/Hero7Flipped';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <VStack spacing={8}>
             <ProductMap />
             <Hero />
+            <Hero7Flipped />
             {/* <Carousel /> */}
           </VStack>
         </Grid>
