@@ -80,8 +80,8 @@ export default function Footer() {
         <Logo />
         <Stack direction={'row'} spacing={6}>
           <Link href={'#'}>Home</Link>
-          <Link href={'#'}>About</Link>
-          <Link href={'#'}>Blog</Link>
+          <Link href={'#'}>Categories</Link>
+          <Link href={'#'}>Reviews</Link>
           <Link href={'#'}>Contact</Link>
         </Stack>
       </Container>

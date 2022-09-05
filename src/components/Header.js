@@ -72,7 +72,7 @@ export default function WithSubnavigation() {
           direction={'row'}
           spacing={6}
         >
-          <Button
+          {/* <Button
             as={'a'}
             fontSize={'sm'}
             fontWeight={400}
@@ -80,7 +80,7 @@ export default function WithSubnavigation() {
             href={'#'}
           >
             Sign In
-          </Button>
+          </Button> */}
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
@@ -92,7 +92,7 @@ export default function WithSubnavigation() {
               bg: 'blue.500',
             }}
           >
-            Sign Up
+            Subscribe
           </Button>
         </Stack>
       </Flex>
@@ -270,41 +270,56 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Inspiration',
+    label: 'Find Toys',
     children: [
       {
-        label: 'Explore Design Work',
+        label: 'Boys',
         subLabel: 'Trending Design to inspire you',
         href: '#',
       },
       {
-        label: 'New & Noteworthy',
+        label: 'Girls',
+        subLabel: 'Up-and-coming Designers',
+        href: '#',
+      },
+      {
+        label: 'Gender Neutral',
         subLabel: 'Up-and-coming Designers',
         href: '#',
       },
     ],
   },
   {
-    label: 'Find Work',
+    label: 'Categories',
     children: [
       {
-        label: 'Job Board',
+        label: 'Education',
         subLabel: 'Find your dream design job',
         href: '#',
       },
       {
-        label: 'Freelance Projects',
+        label: 'Development',
+        subLabel: 'An exclusive list for contract work',
+        href: '#',
+      },
+      {
+        label: 'Fun',
+        subLabel: 'An exclusive list for contract work',
+        href: '#',
+      },
+      {
+        label: 'Organic',
         subLabel: 'An exclusive list for contract work',
         href: '#',
       },
     ],
   },
   {
-    label: 'Learn Design',
+    label: 'Reviews',
     href: '#',
   },
   {
-    label: 'Hire Designers',
+    label: 'Books',
     href: '#',
   },
 ];
