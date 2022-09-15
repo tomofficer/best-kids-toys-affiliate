@@ -16,8 +16,11 @@ const Home = () => {
     <div>
       <Hero2 />
 
-      <ProductMap />
+      {/* <ProductMap /> */}
+      <SubFooter />
+
       <MainArticle />
+
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
@@ -26,7 +29,6 @@ const Home = () => {
             <SubFooter />
             <ProductMap />
             <Hero />
-            <SubFooter />
           </VStack>
         </Grid>
       </Box>

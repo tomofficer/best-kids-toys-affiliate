@@ -62,7 +62,7 @@ const Hero7 = () => {
                   md: 2,
                 }}
                 spacing={0}
-                p={20}
+                p={'200px'}
               >
                 <Flex bg="brand.400">
                   <Image

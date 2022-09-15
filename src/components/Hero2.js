@@ -5,12 +5,14 @@ import {
   Button,
   Text,
   VStack,
+  Image,
+  Box,
   useBreakpointValue,
+  chakra,
 } from '@chakra-ui/react';
 import Carousel from './Carousel';
 
 export default function Hero2() {
-  //state variables
   const scrollToDivider = useRef();
 
   //click handlers
@@ -29,6 +31,15 @@ export default function Hero2() {
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
       >
+        <Box ml="73%" mt={4} position={'absolute'}>
+          <Flex>
+            <Image
+              w="350px"
+              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
+            />
+          </Flex>
+        </Box>
+
         <VStack
           w={'full'}
           justify={'center'}
@@ -43,7 +54,19 @@ export default function Hero2() {
               fontSize={useBreakpointValue({ base: '4xl', lg: '5xl' })}
               fontFamily="Poppins.700"
             >
-              Been looking for that perfect birthday gift? Look no further!
+              Been looking for that perfect kid's gift? Look no further!
+            </Text>
+            <Text
+              color={'white'}
+              fontWeight={900}
+              lineHeight={1.2}
+              fontSize={useBreakpointValue({ base: '4xl', lg: '5xl' })}
+              fontFamily="Poppins.700"
+            >
+              Welcome to{' '}
+              <chakra.span color="green.400" bgColor="white">
+                Your Next Toy.com{' '}
+              </chakra.span>
             </Text>
             <Stack direction={'row'} style={{ marginBottom: '350px' }}>
               <Button

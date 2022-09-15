@@ -14,6 +14,7 @@ import {
   useColorModeValue,
   useBreakpointValue,
   useDisclosure,
+  Image,
 } from '@chakra-ui/react';
 import {
   HamburgerIcon,
@@ -52,13 +53,20 @@ export default function WithSubnavigation() {
             aria-label={'Toggle Navigation'}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+        <Flex
+          flex={{ base: 1 }}
+          justify={{ base: 'center', md: 'start' }}
+          alignItems="center"
+        >
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}
           >
-            Logo
+            <Image
+              w="80px"
+              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
+            />
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>

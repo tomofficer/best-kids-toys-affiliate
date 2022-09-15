@@ -12,7 +12,7 @@ import {
 const SubFooter = () => {
   return (
     <div>
-      <Box px={8} py={24} mx="auto">
+      <Box px={8} py={12} mx="auto" bgGradient="linear(to-r, green.400, white)">
         <Box
           w={{
             base: 'full',
@@ -42,7 +42,7 @@ const SubFooter = () => {
               color: 'gray.100',
             }}
           >
-            All your{' '}
+            Find all the{' '}
             <Text
               display={{
                 base: 'block',
@@ -53,9 +53,10 @@ const SubFooter = () => {
               bgGradient="linear(to-r, green.400,purple.500)"
               fontWeight="extrabold"
             >
-              customer feedback
+              coolest new toys
             </Text>{' '}
-            in one single place.
+            in <br />
+            one single place.
           </chakra.h1>
           <chakra.p
             px={{
