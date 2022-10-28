@@ -8,6 +8,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
   Image,
+  Center,
 } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { ReactNode } from 'react';
@@ -78,20 +79,23 @@ export default function Footer() {
         justify={'center'}
         align={'center'}
       >
-        <Image
-          w="200px"
-          src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
-        />
+        <Center>
+          <Image
+            w="200px"
+            src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
+          />
+        </Center>
+
         <Stack direction={'row'} spacing={6}>
           <Link href={'#'}>Home</Link>
-          <Link href={'#'}>Categories</Link>
-          <Link href={'#'}>Reviews</Link>
+          <Link href={'#'}>Toys</Link>
+          <Link href={'#'}>Books</Link>
           <Link href={'#'}>Contact</Link>
         </Stack>
       </Container>
 
       <Box
-        borderTopWidth={1}
+        borderTopWidth={2}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.700')}
       >
@@ -104,7 +108,7 @@ export default function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text>© 2022 Your Next Toy.com All rights reserved</Text>
+          <Text>© 2022 Your Next Toy - All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

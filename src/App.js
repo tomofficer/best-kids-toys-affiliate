@@ -34,12 +34,13 @@ import CallToActionLarge from './components/CallToActionLarge';
 import Carousel3 from './components/Carousel3';
 import Carousel4 from './components/Carousel4';
 import Home from './Home';
+import Header2 from './components/Header2';
 
 function App() {
   return (
     <BrowserRouter>
       <ChakraProvider theme={theme}>
-        <Header />
+        <Header2 />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

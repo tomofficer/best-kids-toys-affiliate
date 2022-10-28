@@ -9,8 +9,8 @@ import SubFooter from './components/SubFooter';
 const Home = () => {
   return (
     <div>
-      <Hero2 />
-      <ProductMap />
+      {/* <Hero2 /> */}
+      {/* <ProductMap />
       <SubFooter />
       <MainArticle />
       <Box textAlign="center" fontSize="xl">
@@ -22,7 +22,7 @@ const Home = () => {
             <Hero />
           </VStack>
         </Grid>
-      </Box>
+      </Box> */}
     </div>
   );
 };
