@@ -22,6 +22,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
+import ColorModeSwitcher from './ColorModeSwitcher';
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -102,6 +103,7 @@ export default function WithSubnavigation() {
           >
             Subscribe
           </Button>
+          <ColorModeSwitcher justifySelf="flex-end" />
         </Stack>
       </Flex>
 
