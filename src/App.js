@@ -40,7 +40,9 @@ function App() {
     <BrowserRouter>
       <ChakraProvider theme={theme}>
         <Header />
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
