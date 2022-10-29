@@ -280,26 +280,6 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Find Toys',
-    children: [
-      {
-        label: 'Boys',
-        subLabel: 'Trending Design to inspire you',
-        href: '#',
-      },
-      {
-        label: 'Girls',
-        subLabel: 'Up-and-coming Designers',
-        href: '#',
-      },
-      {
-        label: 'Gender Neutral',
-        subLabel: 'Up-and-coming Designers',
-        href: '#',
-      },
-    ],
-  },
-  {
     label: 'Categories',
     children: [
       {
@@ -325,11 +305,15 @@ const NAV_ITEMS: Array<NavItem> = [
     ],
   },
   {
-    label: 'Reviews',
+    label: 'Toys',
     href: '#',
   },
   {
     label: 'Books',
+    href: '#',
+  },
+  {
+    label: 'About',
     href: '#',
   },
 ];

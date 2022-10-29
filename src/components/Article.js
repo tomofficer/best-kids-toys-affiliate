@@ -58,7 +58,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
 
 const ArticleList = () => {
   return (
-    <Container maxW={'7xl'} p="20">
+    <Container maxW={'7xl'} px="40" pb={10}>
       <Divider marginTop="0" />
       <Wrap spacing="30px" marginTop="5">
         <WrapItem width={{ base: '100%', sm: '45%', md: '45%', lg: '30%' }}>
@@ -71,12 +71,10 @@ const ArticleList = () => {
         </WrapItem>
       </Wrap>
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
-        <Heading as="h2">
-          Why it's so important to avoid toxins and chemicals
-        </Heading>
+        <Heading as="h2">Choosing the right toy for your tot</Heading>
         <Heading fontSize={'xl'} marginTop={2}>
           {' '}
-          Choosing the right toy for your tot
+          Why it's so important to avoid toxins and chemicals
         </Heading>
         <Text as="p" fontSize="lg" marginTop={2}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -101,6 +99,20 @@ const ArticleList = () => {
           imperdiet. Mauris quis erat consequat, commodo massa quis, feugiat
           sapien. Suspendisse placerat vulputate posuere. Curabitur neque
           tortor, mattis nec lacus non, placerat congue elit.
+        </Text>
+        <Text as="p" fontSize="lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ab
+          necessitatibus quia reprehenderit, rerum consequuntur dolorem repellat
+          reiciendis labore, tempore laboriosam perspiciatis ipsum veniam
+          veritatis odio deleniti sequi ea dicta. Atque aliquid, officia
+          perferendis consectetur molestias autem reprehenderit commodi eaque
+          quasi tenetur cum ducimus ea eius ex animi dolor asperiores ad totam
+          quisquam eveniet assumenda? Ipsa molestiae incidunt laboriosam? Quis
+          aspernatur officiis excepturi temporibus error eligendi, minus,
+          laudantium hic doloribus tenetur ea nesciunt perspiciatis optio
+          maiores provident eos dolores molestiae minima id, labore consectetur
+          praesentium rem ullam quae? Voluptatem, consequuntur natus. Ipsum
+          repellendus ipsa dolore temporibus, odio eos molestias commodi.
         </Text>
       </VStack>
     </Container>

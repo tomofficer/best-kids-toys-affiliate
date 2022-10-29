@@ -38,6 +38,7 @@ import Header2 from './components/Header2';
 import Landing from './Landing';
 import LandingLower from './components/LandingLower';
 import Article from './components/Article';
+import Toys from './components/Toys';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Landing />
         <LandingLower />
         <Article />
+        <Toys />
         <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
         <Footer />
       </ChakraProvider>
