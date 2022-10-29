@@ -78,9 +78,6 @@ const LandingLower = () => {
             </Text>
           </Flex>
         </Center>
-        {/* <Box px={20}>
-          <Image src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382" />
-        </Box> */}
       </Box>
       <Flex
         bg="#edf3f8"

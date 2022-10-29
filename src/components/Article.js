@@ -45,8 +45,8 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
     <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
       <Image
         borderRadius="full"
-        boxSize="40px"
-        src="https://100k-faces.glitch.me/random-image"
+        boxSize="60px"
+        src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/melody_sf_1W3Nq1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667027562042"
         alt={`Avatar of ${props.name}`}
       />
       <Text fontWeight="medium">{props.name}</Text>
@@ -58,21 +58,27 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
 
 const ArticleList = () => {
   return (
-    <Container maxW={'7xl'} p="12">
-      <Divider marginTop="5" />
+    <Container maxW={'7xl'} p="20">
+      <Divider marginTop="0" />
       <Wrap spacing="30px" marginTop="5">
         <WrapItem width={{ base: '100%', sm: '45%', md: '45%', lg: '30%' }}>
           <Box w="100%">
             <BlogAuthor
-              name="John Doe"
-              date={new Date('2021-04-06T19:01:27Z')}
+              name="Melody Martin"
+              date={new Date('2022-10-06T19:01:27Z')}
             />
           </Box>
         </WrapItem>
       </Wrap>
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
-        <Heading as="h2">What we write about</Heading>
-        <Text as="p" fontSize="lg">
+        <Heading as="h2">
+          Why it's so important to avoid toxins and chemicals
+        </Heading>
+        <Heading fontSize={'xl'} marginTop={2}>
+          {' '}
+          Choosing the right toy for your tot
+        </Heading>
+        <Text as="p" fontSize="lg" marginTop={2}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           condimentum quam arcu, eu tempus tortor molestie at. Vestibulum
           pretium condimentum dignissim. Vestibulum ultrices vitae nisi sed
