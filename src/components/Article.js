@@ -72,11 +72,10 @@ const ArticleList = () => {
       </Wrap>
       <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
         <Heading as="h2">Choosing the right toy for your tot</Heading>
-        <Heading fontSize={'xl'} marginTop={2}>
-          {' '}
+        <Heading fontSize={'xl'} marginTop={2} marginBottom={6}>
           Why it's so important to avoid toxins and chemicals
         </Heading>
-        <Text as="p" fontSize="lg" marginTop={2}>
+        <Text as="p" fontSize="lg" mt={4}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
           condimentum quam arcu, eu tempus tortor molestie at. Vestibulum
           pretium condimentum dignissim. Vestibulum ultrices vitae nisi sed

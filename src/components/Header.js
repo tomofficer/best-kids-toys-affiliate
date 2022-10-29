@@ -103,7 +103,7 @@ export default function WithSubnavigation() {
           >
             Subscribe
           </Button>
-          <ColorModeSwitcher justifySelf="flex-end" />
+          {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
         </Stack>
       </Flex>
 

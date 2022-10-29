@@ -90,7 +90,7 @@ export default function Footer() {
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>Toys</Link>
           <Link href={'#'}>Books</Link>
-          <Link href={'#'}>Contact</Link>
+          <Link href={'#'}>About</Link>
         </Stack>
       </Container>
 
