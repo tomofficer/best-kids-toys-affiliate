@@ -160,8 +160,11 @@ const LandingLower = () => {
         </SimpleGrid>
       </Flex>
 
-      <Box px={40} pt={10} bg="#edf3f8">
-        <Image src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382" />
+      <Box px={40} pt={10} pb={20} bg="#edf3f8">
+        <Image
+          src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382"
+          borderRadius={20}
+        />
       </Box>
     </>
   );
