@@ -36,7 +36,7 @@ import Carousel4 from './components/Carousel4';
 import Home from './Home';
 import Header2 from './components/Header2';
 import Landing from './Landing';
-import Article from './components/Article';
+import LandingLower from './components/LandingLower';
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
       <ChakraProvider theme={theme}>
         <Header />
         <Landing />
-        <Article />
+        <LandingLower />
         <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
         <Footer />
       </ChakraProvider>
