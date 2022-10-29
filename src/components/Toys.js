@@ -1,30 +1,16 @@
 import React from 'react';
-import {
-  Flex,
-  Box,
-  SimpleGrid,
-  chakra,
-  Button,
-  Center,
-} from '@chakra-ui/react';
+import { Flex, Box, chakra, Image } from '@chakra-ui/react';
 
 const Toys = () => {
   //data set for toys
   const toyData = [
     {
-      product: 'Haba Eggs',
+      category: '',
+      title: 'Haba Eggs',
+      description:
+        'Four multi-colored wooden eggs that make a different sound when shaken!',
       img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/habaeggs_evphepGx_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667028754580',
       url: 'https://www.amazon.com/HABA-Musical-Eggs-Acoustic-Germany/dp/B00BF3D666/ref=sr_1_7?crid=2Z1KKBC0NWY2R&keywords=haba&qid=1667028707&qu=eyJxc2MiOiI3LjUyIiwicXNhIjoiNy4yMCIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=natural+baby+toys%2Caps%2C456&sr=8-7',
-    },
-    {
-      product: '',
-      img: '',
-      url: '',
-    },
-    {
-      product: '',
-      img: '',
-      url: '',
     },
   ];
 
@@ -33,7 +19,7 @@ const Toys = () => {
       {toyData.map(toy => (
         <>
           <Flex
-            bg="white"
+            bg="#edf3f8"
             _dark={{
               bg: '#3e3e3e',
             }}
@@ -42,108 +28,85 @@ const Toys = () => {
             alignItems="center"
             justifyContent="center"
           >
-            <Flex
-              direction="column"
-              justifyContent="center"
-              alignItems="center"
-              w="md"
+            <Box
+              maxW="xs"
               mx="auto"
+              bg="white"
+              _dark={{
+                bg: 'gray.800',
+              }}
+              shadow="lg"
+              rounded="lg"
             >
-              <Box
-                bg="gray.300"
-                h={64}
-                w="full"
-                rounded="lg"
-                shadow="md"
-                bgSize="cover"
-                bgPos="center"
-                style={{
-                  backgroundImage:
-                    'url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)',
-                }}
-              ></Box>
-
-              <Box
-                w={{
-                  base: 56,
-                  md: 64,
-                }}
-                bg="white"
-                _dark={{
-                  bg: 'gray.800',
-                }}
-                mt={-10}
-                shadow="lg"
-                rounded="lg"
-                overflow="hidden"
-              >
-                <chakra.h3
-                  py={2}
-                  textAlign="center"
-                  fontWeight="bold"
-                  textTransform="uppercase"
+              <Box px={4} py={2}>
+                <chakra.h1
                   color="gray.800"
                   _dark={{
                     color: 'white',
                   }}
-                  letterSpacing={1}
+                  fontWeight="bold"
+                  fontSize="3xl"
+                  textTransform="uppercase"
                 >
-                  Nike Revolt
-                </chakra.h3>
-
-                <Flex
-                  alignItems="center"
-                  justifyContent="space-between"
-                  py={2}
-                  px={3}
-                  bg="gray.200"
+                  {toy.title}
+                </chakra.h1>
+                <chakra.p
+                  mt={1}
+                  fontSize="sm"
+                  color="gray.600"
                   _dark={{
-                    bg: 'gray.700',
+                    color: 'gray.400',
                   }}
                 >
-                  {/* <chakra.span
-                fontWeight="bold"
-                color="gray.800"
-                _dark={{
-                  color: 'gray.200',
-                }}
-              >
-                $129
-              </chakra.span> */}
-
-                  <chakra.button
-                    ml={'20%'}
-                    bg="gray.800"
-                    fontSize="xs"
-                    fontWeight="bold"
-                    color="white"
-                    px={4}
-                    py={1}
-                    rounded="lg"
-                    textTransform="uppercase"
-                    _hover={{
-                      bg: 'gray.700',
-                      _dark: {
-                        bg: 'gray.600',
-                      },
-                    }}
-                    _focus={{
-                      bg: 'gray.700',
-                      _dark: {
-                        bg: 'gray.600',
-                      },
-                      outline: 'none',
-                    }}
-                  >
-                    View On Amazon
-                  </chakra.button>
-                </Flex>
+                  {toy.description}
+                </chakra.p>
               </Box>
-            </Flex>
+
+              <Image
+                h={48}
+                w="full"
+                fit="cover"
+                mt={2}
+                src={toy.img}
+                alt="NIKE AIR"
+              />
+
+              <Flex
+                alignItems="center"
+                justifyContent="center"
+                px={4}
+                py={4}
+                bg="blue.700"
+                roundedBottom="lg"
+              >
+                {/* <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
+                  $129
+                </chakra.h1> */}
+                <chakra.button
+                  px={4}
+                  py={2}
+                  bg="white"
+                  fontSize="xs"
+                  color="black"
+                  fontWeight="bold"
+                  rounded="lg"
+                  textTransform="uppercase"
+                  _hover={{
+                    bg: 'yellow.300',
+                    color: 'blue.800',
+                  }}
+                  _focus={{
+                    bg: 'gray.400',
+                  }}
+                >
+                  View On Amazon
+                </chakra.button>
+              </Flex>
+            </Box>
           </Flex>
+          ;
         </>
       ))}
-      ;
     </>
   );
 };

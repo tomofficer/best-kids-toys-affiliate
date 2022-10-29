@@ -49,6 +49,7 @@ function App() {
         <LandingLower />
         <Article />
         <Toys />
+
         <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
         <Footer />
       </ChakraProvider>
