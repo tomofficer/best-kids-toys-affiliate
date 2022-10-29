@@ -35,15 +35,17 @@ import Carousel3 from './components/Carousel3';
 import Carousel4 from './components/Carousel4';
 import Home from './Home';
 import Header2 from './components/Header2';
+import Landing from './Landing';
+import Article from './components/Article';
 
 function App() {
   return (
     <BrowserRouter>
       <ChakraProvider theme={theme}>
-        <Header2 />
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Header />
+        <Landing />
+        <Article />
+        <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
         <Footer />
       </ChakraProvider>
     </BrowserRouter>

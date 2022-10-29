@@ -303,7 +303,7 @@ const Header2 = () => {
       <Button w="full" variant="ghost">
         Dashboard
       </Button>
-      <Button w="full" variant="solid" colorScheme="brand">
+      <Button w="full" variant="solid" color="black">
         Inbox
       </Button>
     </VStack>
@@ -329,7 +329,7 @@ const Header2 = () => {
             justifyContent="space-between"
           >
             <Flex align="flex-start">
-              {/* <Link href="/">
+              <Link href="/">
                 <HStack>
                   <Text
                     textAlign={useBreakpointValue({
@@ -345,7 +345,7 @@ const Header2 = () => {
                     />
                   </Text>
                 </HStack>
-              </Link> */}
+              </Link>
             </Flex>
             <Flex>
               <HStack
