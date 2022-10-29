@@ -65,7 +65,12 @@ const LandingLower = () => {
             <Heading>
               30+ Organic, Eco-Friendly Toys For Tots And Toddlers
             </Heading>
-            <Text px={'120px'} mt={10} textAlign={'center'}>
+            <Text
+              px={{ base: 2, md: 10, lg: 20 }}
+              mt={10}
+              textAlign={'center'}
+              w="auto"
+            >
               Have you been looking for the perfect gift for your baby but sick
               of all the plastics and toxins found in common mainstream toys?
               Well, look no further because you'll love our Eco-Friendly,
