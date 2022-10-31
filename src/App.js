@@ -36,6 +36,7 @@ import Carousel4 from './components/Carousel4';
 import Home from './Home';
 import Header2 from './components/Header2';
 import Landing from './Landing';
+import Books from './components/Books';
 import LandingLower from './components/LandingLower';
 import Article from './components/Article';
 import WoodToys from './components/WoodToys';
@@ -52,6 +53,9 @@ function App() {
         <WoodToys />
         <SoftToys />
         <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
+        <Routes>
+          <Route path="/books" element={<Books />} />
+        </Routes>
         <Footer />
       </ChakraProvider>
     </BrowserRouter>

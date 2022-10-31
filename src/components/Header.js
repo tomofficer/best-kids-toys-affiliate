@@ -310,7 +310,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Books',
-    href: '#',
+    href: '/books',
   },
   {
     label: 'About',

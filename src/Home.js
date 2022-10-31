@@ -1,15 +1,17 @@
 import React from 'react';
 import { Box, Grid, VStack } from '@chakra-ui/react';
-import Hero7 from './components/Hero7';
+
 import ProductMap from './components/ProductMap';
 import Hero from './components/Hero7';
 import MainArticle from './components/MainArticle';
 import SubFooter from './components/SubFooter';
 
+
+
 const Home = () => {
   return (
     <div>
-      <Hero7></Hero7>
+
       {/* <Hero2 /> */}
       {/* <ProductMap />
       <SubFooter />
