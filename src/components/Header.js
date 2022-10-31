@@ -313,6 +313,14 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/books',
   },
   {
+    label: 'Bath',
+    href: '/bath',
+  },
+  {
+    label: 'Sleep',
+    href: '/sleep',
+  },
+  {
     label: 'About',
     href: '/about',
   },
