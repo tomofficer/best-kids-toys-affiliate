@@ -41,6 +41,7 @@ import LandingLower from './components/LandingLower';
 import Article from './components/Article';
 import WoodToys from './components/WoodToys';
 import SoftToys from './components/SoftToys';
+import Teethers from './components/Teethers';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Article />
         <WoodToys />
         <SoftToys />
+        <Teethers />
         <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
         <Routes>
           <Route path="/books" element={<Books />} />

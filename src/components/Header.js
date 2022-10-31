@@ -197,7 +197,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           align={'center'}
           flex={1}
         >
-          <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
+          {/* <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} /> */}
         </Flex>
       </Stack>
     </Link>
@@ -283,34 +283,30 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Home',
     href: '/',
   },
-  {
-    label: 'Categories',
-    children: [
-      {
-        label: 'Education',
-        subLabel: 'Find your dream design job',
-        href: '#',
-      },
-      {
-        label: 'Development',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-      {
-        label: 'Fun',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-      {
-        label: 'Organic',
-        subLabel: 'An exclusive list for contract work',
-        href: '#',
-      },
-    ],
-  },
+  // {
+  //   label: 'Toys',
+  //   children: [
+  //     {
+  //       label: 'Wooden Toys',
+  //       href: '#',
+  //     },
+  //     {
+  //       label: 'Soft And Cloth Toys',
+  //       href: '#',
+  //     },
+  //     {
+  //       label: 'Teethers',
+  //       href: '#',
+  //     },
+  //     {
+  //       label: 'Bath Toys',
+  //       href: '#',
+  //     },
+  //   ],
+  // },
   {
     label: 'Toys',
-    href: '#',
+    href: '/toys',
   },
   {
     label: 'Books',
@@ -318,6 +314,6 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'About',
-    href: '#',
+    href: '/about',
   },
 ];
