@@ -105,7 +105,7 @@ export default function Footer() {
         borderTopWidth={4}
         borderStyle={'solid'}
         borderColor={useColorModeValue('green.600')}
-        bg={'green.100'}
+        bg={'green.200'}
       >
         <Container
           as={Stack}

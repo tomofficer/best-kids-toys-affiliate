@@ -56,7 +56,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
   );
 };
 
-const ArticleList = () => {
+const ArticleToys = () => {
   return (
     <Container maxW={'4xl'} px="20" pb={10}>
       <Divider marginTop="0" />
@@ -113,9 +113,14 @@ const ArticleList = () => {
           praesentium rem ullam quae? Voluptatem, consequuntur natus. Ipsum
           repellendus ipsa dolore temporibus, odio eos molestias commodi.
         </Text>
+        <Text pt={4} fontStyle="italic">
+          We individually research, test and review each product we recommend
+          with the utmost love and care! If you make a purchase through one of
+          our links, we may earn a commission.
+        </Text>
       </VStack>
     </Container>
   );
 };
 
-export default ArticleList;
+export default ArticleToys;

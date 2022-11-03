@@ -1,7 +1,7 @@
 import React from 'react';
 import Landing from '../Landing';
-import LandingLower from './LandingLower';
-import Article from './Article';
+import LandingLowerToys from './LandingLowerToys';
+import ArticleToys from './ArticleToys';
 import WoodToys from './WoodToys';
 import SoftToys from './SoftToys';
 import Teethers from './Teethers';
@@ -9,8 +9,8 @@ import Teethers from './Teethers';
 const Toys = () => {
   return (
     <>
-      <LandingLower />
-      <Article />
+      <LandingLowerToys />
+      <ArticleToys />
       <WoodToys />
       <SoftToys />
       <Teethers />
