@@ -35,9 +35,9 @@ export default function WithSubnavigation() {
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
-        borderBottom={3}
+        borderBottom={5}
         borderStyle={'solid'}
-        borderColor={useColorModeValue('blue.200', 'gray.900')}
+        borderColor={useColorModeValue('green.600')}
         align={'center'}
       >
         <Flex
@@ -83,14 +83,15 @@ export default function WithSubnavigation() {
           spacing={6}
         >
           <Button
+            mr={6}
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
-            bg={'blue.400'}
+            bg={'green.600'}
             href={'#'}
             _hover={{
-              bg: 'blue.300',
+              bg: 'green.500',
               transform: 'scale(1.1)',
             }}
           >

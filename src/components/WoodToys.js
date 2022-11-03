@@ -83,32 +83,11 @@ const WoodToys = () => {
 
       {toyData.map(toy => (
         <>
-          <Flex
-            // bg="#edf3f8"
-            // _dark={{
-            //   bg: '#3e3e3e',
-            // }}
-            p={30}
-            w="full"
-            alignItems="center"
-            justifyContent="center"
-          >
-            <Box
-              maxW="md"
-              mx="auto"
-              bg="white"
-              _dark={{
-                bg: 'gray.800',
-              }}
-              shadow="lg"
-              rounded="lg"
-            >
+          <Flex p={30} w="full" alignItems="center" justifyContent="center">
+            <Box maxW="md" mx="auto" bg="white" shadow="lg" rounded="lg">
               <Box px={4} py={2} bg="gray.100" borderTopRadius={10}>
                 <chakra.h1
                   color="gray.800"
-                  _dark={{
-                    color: 'white',
-                  }}
                   fontWeight="bold"
                   fontSize="3xl"
                   textTransform="uppercase"
@@ -135,7 +114,7 @@ const WoodToys = () => {
                 py={6}
                 px={8}
                 src={toy.img}
-                alt="NIKE AIR"
+                alt="toy"
               />
 
               <Flex
@@ -143,7 +122,7 @@ const WoodToys = () => {
                 justifyContent="center"
                 px={4}
                 py={6}
-                bg="blue.700"
+                bg="blue.200"
                 roundedBottom="lg"
               >
                 {/* <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
@@ -160,8 +139,9 @@ const WoodToys = () => {
                     rounded="lg"
                     textTransform="uppercase"
                     _hover={{
-                      bg: 'yellow.300',
-                      color: 'blue.800',
+                      bg: 'pink.200',
+
+                      transform: 'scale(1.1)',
                     }}
                     _focus={{
                       bg: 'gray.400',
