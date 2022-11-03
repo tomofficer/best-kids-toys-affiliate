@@ -85,7 +85,7 @@ const WoodToys = () => {
         <>
           <Flex p={30} w="full" alignItems="center" justifyContent="center">
             <Box maxW="md" mx="auto" bg="white" shadow="lg" rounded="lg">
-              <Box px={4} py={2} bg="gray.100" borderTopRadius={10}>
+              <Box px={4} py={2} bg="gray.50" borderTopRadius={10}>
                 <chakra.h1
                   color="gray.800"
                   fontWeight="bold"
@@ -94,14 +94,7 @@ const WoodToys = () => {
                 >
                   {toy.title}
                 </chakra.h1>
-                <chakra.p
-                  mt={1}
-                  fontSize="sm"
-                  color="gray.600"
-                  _dark={{
-                    color: 'gray.400',
-                  }}
-                >
+                <chakra.p mt={1} fontSize="sm" color="gray.600">
                   {toy.description}
                 </chakra.p>
               </Box>
@@ -122,7 +115,7 @@ const WoodToys = () => {
                 justifyContent="center"
                 px={4}
                 py={6}
-                bg="blue.200"
+                bg="green.600"
                 roundedBottom="lg"
               >
                 {/* <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
@@ -139,8 +132,6 @@ const WoodToys = () => {
                     rounded="lg"
                     textTransform="uppercase"
                     _hover={{
-                      bg: 'pink.200',
-
                       transform: 'scale(1.1)',
                     }}
                     _focus={{

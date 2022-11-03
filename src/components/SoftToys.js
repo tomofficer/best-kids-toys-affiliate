@@ -7,6 +7,7 @@ import {
   Link,
   Heading,
   Text,
+  Center,
 } from '@chakra-ui/react';
 
 const SoftToys = () => {
@@ -56,70 +57,44 @@ const SoftToys = () => {
 
   return (
     <>
-      <Box py={10} px={20}>
-        <Heading as="h2" size="2xl" mt={6} mb={6} px={40}>
-          Organic, Eco-Friendly Soft And Cloth Toys
-        </Heading>
-        <Heading fontSize={'xl'} mt={2} mb={4} px={40}>
-          The benefits of using eco-friendly, dye-free cloth toys over
-          mainstream toxin-rich soft toys.
-        </Heading>
-        <Text px={40} as="p" fontSize={'lg'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Est excepturi accusamus doloribus suscipit accusantium
-          necessitatibus, ab, exercitationem asperiores magni aut, sed
-          praesentium vero velit! Error deleniti tempora mollitia voluptatibus
-          doloremque, porro, rerum sunt, cumque nostrum esse sequi temporibus!
-          Ad veritatis fugit quisquam rem, quod earum a nihil aperiam cupiditate
-          quae laborum quibusdam adipisc. Voluptate totam impedit consectetur
-          quidem consequatur mollitia.
-        </Text>
-      </Box>
+      <Center>
+        <Box maxW={'4xl'} py={10} px={20}>
+          <Heading as="h2" size="2xl" mt={6} mb={6}>
+            Organic, Eco-Friendly Soft And Cloth Toys
+          </Heading>
+          <Heading fontSize={'xl'} mt={2} mb={4}>
+            The benefits of using eco-friendly, dye-free cloth toys over
+            mainstream toxin-rich soft toys.
+          </Heading>
+          <Text as="p" fontSize={'lg'}>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Est excepturi accusamus doloribus suscipit
+            accusantium necessitatibus, ab, exercitationem asperiores magni aut,
+            sed praesentium vero velit! Error deleniti tempora mollitia
+            voluptatibus doloremque, porro, rerum sunt, cumque nostrum esse
+            sequi temporibus! Ad veritatis fugit quisquam rem, quod earum a
+            nihil aperiam cupiditate quae laborum quibusdam adipisc. Voluptate
+            totam impedit consectetur quidem consequatur mollitia.
+          </Text>
+        </Box>
+      </Center>
 
       {toyData.map(toy => (
         <>
-          <Flex
-            // bg="#edf3f8"
-            // _dark={{
-            //   bg: '#3e3e3e',
-            // }}
-            p={30}
-            w="full"
-            alignItems="center"
-            justifyContent="center"
-          >
-            <Box
-              maxW="md"
-              mx="auto"
-              bg="white"
-              _dark={{
-                bg: 'gray.800',
-              }}
-              shadow="lg"
-              rounded="lg"
-            >
-              <Box px={4} py={2} bg="gray.100" borderTopRadius={10}>
+          <Flex p={30} w="full" alignItems="center" justifyContent="center">
+            <Box maxW="md" mx="auto" bg="white" shadow="lg" rounded="lg">
+              <Box px={4} py={2} bg="gray.50" borderTopRadius={10}>
                 <chakra.h1
                   color="gray.800"
-                  _dark={{
-                    color: 'white',
-                  }}
                   fontWeight="bold"
                   fontSize="3xl"
                   textTransform="uppercase"
                 >
                   {toy.title}
                 </chakra.h1>
-                <chakra.p
-                  mt={1}
-                  fontSize="sm"
-                  color="gray.600"
-                  _dark={{
-                    color: 'gray.400',
-                  }}
-                >
+                <chakra.p mt={1} fontSize="sm" color="gray.600">
                   {toy.description}
                 </chakra.p>
               </Box>
@@ -132,7 +107,7 @@ const SoftToys = () => {
                 py={6}
                 px={8}
                 src={toy.img}
-                alt="NIKE AIR"
+                alt="toy"
               />
 
               <Flex
@@ -140,7 +115,7 @@ const SoftToys = () => {
                 justifyContent="center"
                 px={4}
                 py={6}
-                bg="blue.700"
+                bg="green.600"
                 roundedBottom="lg"
               >
                 {/* <chakra.h1 color="white" fontWeight="bold" fontSize="lg">
@@ -157,8 +132,7 @@ const SoftToys = () => {
                     rounded="lg"
                     textTransform="uppercase"
                     _hover={{
-                      bg: 'yellow.300',
-                      color: 'blue.800',
+                      transform: 'scale(1.1)',
                     }}
                     _focus={{
                       bg: 'gray.400',
