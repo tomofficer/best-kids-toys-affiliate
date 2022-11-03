@@ -9,6 +9,7 @@ import {
   Heading,
   Button,
   Image,
+  Center,
 } from '@chakra-ui/react';
 
 const Landing = () => {
@@ -16,7 +17,12 @@ const Landing = () => {
 
   return (
     <chakra.header>
-      <Box
+      <Box>
+        <Center>
+          <Image src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo_6a73P1Sz_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667467807527" />
+        </Center>
+      </Box>
+      {/* <Box
         w="full"
         h="container.sm"
         // h="450px"
@@ -58,7 +64,7 @@ const Landing = () => {
             </Button>
           </Stack>
         </Flex>
-      </Box>
+      </Box> */}
     </chakra.header>
   );
 };

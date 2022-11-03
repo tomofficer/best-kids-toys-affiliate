@@ -66,7 +66,7 @@ export default function WithSubnavigation() {
           >
             <Image
               w="80px"
-              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
+              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo_6a73P1Sz_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667467807527"
             />
           </Text>
 
