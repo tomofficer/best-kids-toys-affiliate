@@ -9,9 +9,11 @@ import {
   Center,
   Text,
   Image,
+  HStack,
+  useColorModeValue,
 } from '@chakra-ui/react';
 
-const LandingLowerBooks = () => {
+const LandingLowerBooks = ({ funnyClick }) => {
   const Feature = props => {
     return (
       <Box>
@@ -54,7 +56,33 @@ const LandingLowerBooks = () => {
 
   return (
     <>
-      <Box pt={10} px={32}>
+      <Center>
+        <Box
+          maxW={'4xl'}
+          px={10}
+          py={2}
+          mt={24}
+          borderBottom={2}
+          borderTop={2}
+          borderStyle={'solid'}
+          borderColor={useColorModeValue('green.600')}
+        >
+          <HStack spacing={10} fontSize={'sm'} fontWeight={'500'}>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => funnyClick()}
+            >
+              Funny
+            </Text>
+            <Text _hover={{ transform: 'scale(1.1)' }}>Educational</Text>
+            <Text _hover={{ transform: 'scale(1.1)' }}>Sensory</Text>
+            <Text _hover={{ transform: 'scale(1.1)' }}>Caldecott Award</Text>
+            <Text _hover={{ transform: 'scale(1.1)' }}>Newbury Award</Text>
+          </HStack>
+        </Box>
+      </Center>
+
+      <Box pt={0} px={32}>
         <Center>
           <Flex
             flexDirection={'column'}
@@ -62,9 +90,7 @@ const LandingLowerBooks = () => {
             alignItems="center"
             p={10}
           >
-            <Heading>
-              30+ Fun And Educational Books For Tots And Toddlers
-            </Heading>
+            <Heading>30+ Fun, Award-Winning Books Tots And Toddlers</Heading>
             <Text
               px={{ base: 2, md: 10, lg: 20 }}
               mt={8}

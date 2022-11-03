@@ -10,7 +10,7 @@ import {
   Center,
 } from '@chakra-ui/react';
 
-const FunBooks = () => {
+const FunBooks = ({ funnyRef }) => {
   //data set for toys
   const toyData = [
     {
@@ -19,7 +19,7 @@ const FunBooks = () => {
       description:
         'James’ best friend and dinosaur Ziggy wants to take a bath and James is going to solve the problem of how to do that. Along the way he helps to teach the reader about big and small, problem solving, respecting other’s belongings and friendship and what that means.',
       img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/dino_4E0dUa3Ee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667510673727',
-      url: 'https://imagekit.io/dashboard/media-library/detail/63643191bf51c1dc80ba4b4a',
+      url: 'https://www.amazon.com/Dinosaur-Wants-Bath-Kindergarten-Adventures/dp/B09HH8PD4M/ref=sr_1_8?keywords=caldecott+winners+children%27s+books&qid=1667510753&qu=eyJxc2MiOiI2Ljg3IiwicXNhIjoiNi42MyIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=caldecott%2Caps%2C223&sr=8-8',
     },
     {
       category: 'Fun Books',
@@ -57,10 +57,10 @@ const FunBooks = () => {
 
   return (
     <>
-      <Center>
+      <Center ref={funnyRef}>
         <Box maxW={'4xl'} py={10} px={20}>
           <Heading as="h2" size="2xl" mt={6} mb={6}>
-            Natural Wood Toys
+            Fun And Funny Books
           </Heading>
           <Heading fontSize={'xl'} mt={2} mb={4}>
             The benefits of buying durable, safe wooden toys over cheaply made
