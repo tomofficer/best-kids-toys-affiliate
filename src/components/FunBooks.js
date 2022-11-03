@@ -14,44 +14,44 @@ const FunBooks = () => {
   //data set for toys
   const toyData = [
     {
-      category: 'Wooden Toys',
-      title: 'Haba Eggs',
+      category: 'Fun Books',
+      title: 'Oh no! My Dinosaur wants a bath!',
       description:
-        'Four multi-colored wooden eggs that make a different sound when shaken!',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/habaeggs_evphepGx_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667028754580',
-      url: 'https://www.amazon.com/HABA-Musical-Eggs-Acoustic-Germany/dp/B00BF3D666/ref=sr_1_7?crid=2Z1KKBC0NWY2R&keywords=haba&qid=1667028707&qu=eyJxc2MiOiI3LjUyIiwicXNhIjoiNy4yMCIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=natural+baby+toys%2Caps%2C456&sr=8-7',
+        'James’ best friend and dinosaur Ziggy wants to take a bath and James is going to solve the problem of how to do that. Along the way he helps to teach the reader about big and small, problem solving, respecting other’s belongings and friendship and what that means.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/dino_4E0dUa3Ee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667510673727',
+      url: 'https://imagekit.io/dashboard/media-library/detail/63643191bf51c1dc80ba4b4a',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Haba Blocks',
+      category: 'Fun Books',
+      title: "Rikcy, the Rock That Couldn't Roll",
       description:
-        'Each cube awaits with a different acoustic effect! In this way, early perception and musicality are fostered.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/habablocks_Xo7IvvlL9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667031920901',
-      url: 'https://www.amazon.com/HABA-Sounds-Discovery-Acoustic-Germany/dp/B00BF3CK90/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4%3Aamzn1.sym.9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4&crid=2Z1KKBC0NWY2R&cv_ct_cx=haba&keywords=haba&pd_rd_i=B00BF3CK90&pd_rd_r=8b1fc94a-982c-41d6-a224-42d256b66454&pd_rd_w=toMui&pd_rd_wg=twxJ8&pf_rd_p=9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4&pf_rd_r=VZYB5Q5JRES9W4E2N8XY&qid=1667031865&qu=eyJxc2MiOiI3LjUyIiwicXNhIjoiNy4yMCIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=natural+baby+toys%2Caps%2C456&sr=1-2-a43b4223-fbe9-48b0-af69-6d70cf84978b-spons&psc=1&smid=A1V3CN8LT5ZFSV',
+        'A beloved, modern-day classic! Join 14 lovable rocks (and one wise little ladybug) on a heartwarming and hilarious journey about the importance of friendship and the power of perseverance.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/ricky_lwS9zI97e.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1667510839395',
+      url: 'https://www.amazon.com/Ricky-Rock-that-Couldnt-Roll/dp/0578198037/ref=sr_1_3_sspa?keywords=caldecott+winners+children%27s+books&qid=1667510753&qu=eyJxc2MiOiI2Ljg3IiwicXNhIjoiNi42MyIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=caldecott%2Caps%2C223&sr=8-3-spons&psc=1',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Agirgle Building Blocks',
+      category: 'Fun Books',
+      title: 'Taylor the Tooting Turkey',
       description:
-        'Large 8 piece rainbow building block set! Promotes baby awareness of shape and color as well as helps build coordination.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/agirgleblocks_JQmdIw2fS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667032404960',
-      url: 'https://www.amazon.com/dp/B09JFW3YBT/ref=sspa_dk_detail_6?psc=1&pd_rd_i=B09JFW3YBT&pd_rd_w=4GLlH&content-id=amzn1.sym.bff6e147-54ad-4be3-b4ea-ec19ea6167f7&pf_rd_p=bff6e147-54ad-4be3-b4ea-ec19ea6167f7&pf_rd_r=EPP9TAVQ9AWEG0K09VTG&pd_rd_wg=mVae6&pd_rd_r=c3c09365-cb8e-4b57-9c9f-d40c809be1b8&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy',
+        "Taylor is a fine turkey, except for one small problem: She has gas. She can't help it; it's just the way she is.  A beloved classic, this story will have everyone rolling on the floor with laughter.",
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/taylor_VdQfzORWB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667510935284',
+      url: 'https://www.amazon.com/Taylor-Tooting-Turkey-Farting-Adventures/dp/1953399495/ref=sr_1_4_sspa?keywords=caldecott+winners+children%27s+books&qid=1667510753&qu=eyJxc2MiOiI2Ljg3IiwicXNhIjoiNi42MyIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=caldecott%2Caps%2C223&sr=8-4-spons&psc=1',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Kookaroo Wooden Bee Hive Sorting Toy',
+      category: 'Fun Books',
+      title: 'Patrick PickleBottom And The Penny Book',
       description:
-        "Ignite your child's imagination! Designed for durability and created by teachers for optimal preschool learning growth.",
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/kookaroobeehive_KAoY20d93.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667032941747',
-      url: 'https://www.amazon.com/dp/B09G5MYFN2/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B09G5MYFN2&pd_rd_w=fbMtY&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=DTCD0ZJA7N5REMV02JWZ&pd_rd_wg=QCtww&pd_rd_r=74792612-060e-4a0a-b97e-1e5f17283fbb&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
+        'Join Patrick Picklebottom on the adventure of a lifetime, as his amazing new book unleashes the power of his imagination! Young Patrick Picklebottom gets the surprise of his life when a kind-hearted store owner sells him his favorite book for only one penny.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/patrick_EcXQYPqZJ.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1667511201022',
+      url: 'https://www.amazon.com/Patrick-Picklebottom-Penny-Book-Miletsky/dp/0578557584/ref=sr_1_1_sspa?keywords=caldecott+winners+children%27s+books&qid=1667510753&qu=eyJxc2MiOiI2Ljg3IiwicXNhIjoiNi42MyIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=caldecott%2Caps%2C223&sr=8-1-spons&psc=1',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Labebe Wood Rainbow Rocker Chairla',
+      category: 'Fun Books',
+      title: 'The Leaf Thief',
       description:
-        'Waldorf rocking play chair for toddlers! Durable, quality wood rocking chair and climbing frame made with Eco-Friendly, safe paint.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/labeberocker_grakg0f9T.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667033235469',
-      url: 'https://www.amazon.com/dp/B09J4NYQP6/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B09J4NYQP6&pd_rd_w=jYWQN&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=PV6TAKE43MJ13X0NT704&pd_rd_wg=DxxXM&pd_rd_r=b781e2e6-c33b-4832-a28d-fec1f663a530&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
+        'Perfect for fans of Fletcher and the Falling Leaves, The Leaf Thief is a funny picture book that teaches kids about autumn, adapting to change, and the seasons. Squirrel loves counting the leaves on his tree--red leaves, gold leaves, orange, and more. But hold on! One of his leaves is missing! On a quest to find the missing leaf, Squirrel teams up with his good friend Bird to discover who the leaf thief could be among their forest friends.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/leaf_PzjLKnyuE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667511353861',
+      url: 'https://www.amazon.com/Leaf-Thief-Alice-Hemming/dp/1728235200/ref=sxin_15_mbs_w_wsirn_d_i?content-id=amzn1.sym.273e7bf0-25fa-4cfc-8a86-c2b833d92207%3Aamzn1.sym.273e7bf0-25fa-4cfc-8a86-c2b833d92207&cv_ct_cx=caldecott+winners+children%27s+books&keywords=caldecott+winners+children%27s+books&pd_rd_i=1728235200&pd_rd_r=3e26deba-340e-46d2-8ee0-193261a079b6&pd_rd_w=MQfpf&pd_rd_wg=PS3UH&pf_rd_p=273e7bf0-25fa-4cfc-8a86-c2b833d92207&pf_rd_r=WB5EYM59S6MRBWJJ0GKF&qid=1667510753&qu=eyJxc2MiOiI2Ljg3IiwicXNhIjoiNi42MyIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=caldecott%2Caps%2C223&sr=1-1-217e09be-bd7d-41c4-874a-1bb8ae9f8268',
     },
   ];
 
