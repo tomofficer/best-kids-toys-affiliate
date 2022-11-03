@@ -313,6 +313,14 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/books',
   },
   {
+    label: 'Feeding',
+    href: '/feeding',
+  },
+  {
+    label: 'Changing',
+    href: '/changing',
+  },
+  {
     label: 'Bath',
     href: '/bath',
   },
@@ -323,5 +331,9 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'About',
     href: '/about',
+  },
+  {
+    label: 'Contact',
+    href: '/contact',
   },
 ];
