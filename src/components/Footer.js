@@ -68,8 +68,11 @@ const SocialButton = ({
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
+      bg={useColorModeValue('gray.100', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
+      borderTopWidth={4}
+      borderStyle={'solid'}
+      borderColor={useColorModeValue('green.600')}
     >
       <Container
         as={Stack}
@@ -82,7 +85,7 @@ export default function Footer() {
         <Center>
           <Image
             w="200px"
-            src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/your-next-toy-trans_9T24F53z5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663232649594"
+            src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
           />
         </Center>
 
@@ -90,14 +93,19 @@ export default function Footer() {
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>Toys</Link>
           <Link href={'#'}>Books</Link>
+          <Link href={'#'}>Bath</Link>
+          <Link href={'#'}>Sleep</Link>
+          <Link href={'#'}>Nursing</Link>
+          <Link href={'#'}>Changing</Link>
           <Link href={'#'}>About</Link>
         </Stack>
       </Container>
 
       <Box
-        borderTopWidth={2}
+        borderTopWidth={4}
         borderStyle={'solid'}
-        borderColor={useColorModeValue('gray.200', 'gray.700')}
+        borderColor={useColorModeValue('green.600')}
+        bg={'green.100'}
       >
         <Container
           as={Stack}
@@ -108,16 +116,34 @@ export default function Footer() {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}
         >
-          <Text>© 2022 Your Next Toy - All rights reserved</Text>
+          <Text>© 2022 Organic Mama Bear - All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
-              <FaTwitter />
+              <Box
+                _hover={{
+                  transform: 'scale(1.2)',
+                }}
+              >
+                <FaTwitter />
+              </Box>
             </SocialButton>
             <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
+              <Box
+                _hover={{
+                  transform: 'scale(1.2)',
+                }}
+              >
+                <FaYoutube />
+              </Box>
             </SocialButton>
             <SocialButton label={'Instagram'} href={'#'}>
-              <FaInstagram />
+              <Box
+                _hover={{
+                  transform: 'scale(1.2)',
+                }}
+              >
+                <FaInstagram />
+              </Box>
             </SocialButton>
           </Stack>
         </Container>

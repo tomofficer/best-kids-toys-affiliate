@@ -42,6 +42,7 @@ import Article from './components/Article';
 import WoodToys from './components/WoodToys';
 import SoftToys from './components/SoftToys';
 import Teethers from './components/Teethers';
+import Toys from './components/Toys';
 
 function App() {
   return (
@@ -49,12 +50,12 @@ function App() {
       <ChakraProvider theme={theme}>
         <Header />
         <Landing />
-        <LandingLower />
-        <Article />
-        <WoodToys />
-        <SoftToys />
-        <Teethers />
-        <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path="/toys" element={<Toys />} />
+        </Routes>
         <Routes>
           <Route path="/books" element={<Books />} />
         </Routes>

@@ -21,7 +21,7 @@ const Landing = () => {
         <Center>
           <Image
             w={'450px'}
-            mr={20}
+            mr={0}
             src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
           />
         </Center>
