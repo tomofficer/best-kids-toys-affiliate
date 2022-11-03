@@ -35,9 +35,9 @@ export default function WithSubnavigation() {
         minH={'60px'}
         py={{ base: 2 }}
         px={{ base: 4 }}
-        borderBottom={1}
+        borderBottom={3}
         borderStyle={'solid'}
-        borderColor={useColorModeValue('gray.200', 'gray.900')}
+        borderColor={useColorModeValue('blue.200', 'gray.900')}
         align={'center'}
       >
         <Flex
@@ -65,7 +65,8 @@ export default function WithSubnavigation() {
             color={useColorModeValue('gray.800', 'white')}
           >
             <Image
-              w="80px"
+              w="150px"
+              ml={4}
               src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
             />
           </Text>
@@ -81,15 +82,6 @@ export default function WithSubnavigation() {
           direction={'row'}
           spacing={6}
         >
-          {/* <Button
-            as={'a'}
-            fontSize={'sm'}
-            fontWeight={400}
-            variant={'link'}
-            href={'#'}
-          >
-            Sign In
-          </Button> */}
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
@@ -98,12 +90,12 @@ export default function WithSubnavigation() {
             bg={'blue.400'}
             href={'#'}
             _hover={{
-              bg: 'blue.500',
+              bg: 'blue.300',
+              transform: 'scale(1.1)',
             }}
           >
             Subscribe
           </Button>
-          {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
         </Stack>
       </Flex>
 
@@ -120,7 +112,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
   return (
-    <Stack direction={'row'} spacing={4}>
+    <Stack direction={'row'} spacing={8} ml={4}>
       {NAV_ITEMS.map(navItem => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -128,11 +120,11 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem.href ?? '#'}
-                fontSize={'sm'}
-                fontWeight={500}
+                fontSize={'lg'}
+                fontWeight={600}
                 color={linkColor}
                 _hover={{
-                  textDecoration: 'none',
+                  textDecoration: 'underline',
                   color: linkHoverColor,
                 }}
               >
@@ -283,27 +275,6 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Home',
     href: '/',
   },
-  // {
-  //   label: 'Toys',
-  //   children: [
-  //     {
-  //       label: 'Wooden Toys',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Soft And Cloth Toys',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Teethers',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'Bath Toys',
-  //       href: '#',
-  //     },
-  //   ],
-  // },
   {
     label: 'Toys',
     href: '/toys',
@@ -332,9 +303,5 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'About',
     href: '/about',
-  },
-  {
-    label: 'Contact',
-    href: '/contact',
   },
 ];
