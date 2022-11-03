@@ -66,7 +66,7 @@ export default function WithSubnavigation() {
           >
             <Image
               w="80px"
-              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo_6a73P1Sz_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667467807527"
+              src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
             />
           </Text>
 
@@ -313,14 +313,6 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/books',
   },
   {
-    label: 'Feeding',
-    href: '/feeding',
-  },
-  {
-    label: 'Changing',
-    href: '/changing',
-  },
-  {
     label: 'Bath',
     href: '/bath',
   },
@@ -328,6 +320,15 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Sleep',
     href: '/sleep',
   },
+  {
+    label: 'Nursing',
+    href: '/nursing',
+  },
+  {
+    label: 'Changing',
+    href: '/changing',
+  },
+
   {
     label: 'About',
     href: '/about',

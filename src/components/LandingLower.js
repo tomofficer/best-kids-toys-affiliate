@@ -54,7 +54,7 @@ const LandingLower = () => {
 
   return (
     <>
-      <Box bg="#edf3f8" pt={20} px={20}>
+      <Box bg="#edf3f8" pt={10} px={32}>
         <Center>
           <Flex
             flexDirection={'column'}
@@ -67,7 +67,7 @@ const LandingLower = () => {
             </Heading>
             <Text
               px={{ base: 2, md: 10, lg: 20 }}
-              mt={10}
+              mt={8}
               textAlign={'center'}
               w="auto"
             >
@@ -78,8 +78,14 @@ const LandingLower = () => {
             </Text>
           </Flex>
         </Center>
+        <Box px={40} pt={4} pb={8} bg="#edf3f8">
+          <Image
+            src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382"
+            borderRadius={20}
+          />
+        </Box>
       </Box>
-      <Flex
+      {/* <Flex
         bg="#edf3f8"
         p={10}
         w="auto"
@@ -87,6 +93,7 @@ const LandingLower = () => {
         alignItems="center"
       >
         <SimpleGrid
+          maxW="7xl"
           columns={{
             base: 1,
             md: 2,
@@ -155,14 +162,7 @@ const LandingLower = () => {
             in-person payments, and unify their payouts across channels.
           </Feature>
         </SimpleGrid>
-      </Flex>
-
-      <Box px={40} pt={10} pb={20} bg="#edf3f8">
-        <Image
-          src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382"
-          borderRadius={20}
-        />
-      </Box>
+      </Flex> */}
     </>
   );
 };

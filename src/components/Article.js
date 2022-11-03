@@ -58,7 +58,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
 
 const ArticleList = () => {
   return (
-    <Container maxW={'7xl'} px="40" pb={10}>
+    <Container maxW={'4xl'} px="20" pb={10}>
       <Divider marginTop="0" />
       <Wrap spacing="30px" marginTop="5">
         <WrapItem width={{ base: '100%', sm: '45%', md: '45%', lg: '30%' }}>
