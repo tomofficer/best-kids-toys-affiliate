@@ -54,7 +54,7 @@ const LandingLower = () => {
 
   return (
     <>
-      <Box bg="#edf3f8" pt={10} px={32}>
+      <Box pt={10} px={32}>
         <Center>
           <Flex
             flexDirection={'column'}
@@ -78,7 +78,7 @@ const LandingLower = () => {
             </Text>
           </Flex>
         </Center>
-        <Box px={40} pt={4} pb={8} bg="#edf3f8">
+        <Box px={40} pt={4} pb={14}>
           <Image
             src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/organicbaby_UIgkpTmGO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667025243382"
             borderRadius={20}
@@ -93,7 +93,6 @@ const LandingLower = () => {
         alignItems="center"
       >
         <SimpleGrid
-          maxW="7xl"
           columns={{
             base: 1,
             md: 2,

@@ -7,6 +7,7 @@ import {
   Link,
   Heading,
   Text,
+  Center,
 } from '@chakra-ui/react';
 
 const WoodToys = () => {
@@ -56,27 +57,29 @@ const WoodToys = () => {
 
   return (
     <>
-      <Box py={10} px={20}>
-        <Heading as="h2" size="2xl" mt={6} mb={6} px={40}>
-          Natural Wood Toys
-        </Heading>
-        <Heading fontSize={'xl'} mt={2} mb={4} px={40}>
-          The benefits of buying durable, safe wooden toys over cheaply made
-          plastic
-        </Heading>
-        <Text px={40} as="p" fontSize={'lg'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Est excepturi accusamus doloribus suscipit accusantium
-          necessitatibus, ab, exercitationem asperiores magni aut, sed
-          praesentium vero velit! Error deleniti tempora mollitia voluptatibus
-          doloremque, porro, rerum sunt, cumque nostrum esse sequi temporibus!
-          Ad veritatis fugit quisquam rem, quod earum a nihil aperiam cupiditate
-          quae laborum quibusdam adipisc. Voluptate totam impedit consectetur
-          quidem consequatur mollitia.
-        </Text>
-      </Box>
+      <Center>
+        <Box maxW={'4xl'} py={10} px={20}>
+          <Heading as="h2" size="2xl" mt={6} mb={6}>
+            Natural Wood Toys
+          </Heading>
+          <Heading fontSize={'xl'} mt={2} mb={4}>
+            The benefits of buying durable, safe wooden toys over cheaply made
+            plastic
+          </Heading>
+          <Text as="p" fontSize={'lg'}>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Est excepturi accusamus doloribus suscipit
+            accusantium necessitatibus, ab, exercitationem asperiores magni aut,
+            sed praesentium vero velit! Error deleniti tempora mollitia
+            voluptatibus doloremque, porro, rerum sunt, cumque nostrum esse
+            sequi temporibus! Ad veritatis fugit quisquam rem, quod earum a
+            nihil aperiam cupiditate quae laborum quibusdam adipisc. Voluptate
+            totam impedit consectetur quidem consequatur mollitia.
+          </Text>
+        </Box>
+      </Center>
 
       {toyData.map(toy => (
         <>
