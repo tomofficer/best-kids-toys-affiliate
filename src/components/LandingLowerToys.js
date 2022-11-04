@@ -13,7 +13,13 @@ import {
   HStack,
 } from '@chakra-ui/react';
 
-const LandingLower = ({ woodClick, softClick, teetherClick, dollsClick }) => {
+const LandingLower = ({
+  woodClick,
+  softClick,
+  teetherClick,
+  dollsClick,
+  playStationsClick,
+}) => {
   const Feature = props => {
     return (
       <Box>
@@ -92,7 +98,12 @@ const LandingLower = ({ woodClick, softClick, teetherClick, dollsClick }) => {
             >
               Dolls
             </Text>
-            <Text _hover={{ transform: 'scale(1.1)' }}>Play Stations</Text>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => playStationsClick()}
+            >
+              Play Stations
+            </Text>
           </HStack>
         </Box>
       </Center>

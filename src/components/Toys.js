@@ -6,6 +6,7 @@ import WoodToys from './WoodToys';
 import SoftToys from './SoftToys';
 import Teethers from './Teethers';
 import DollsToys from './DollsToys';
+import PlayStationsToys from './PlayStationsToys';
 
 const Toys = () => {
   //useRef
@@ -49,6 +50,7 @@ const Toys = () => {
       <SoftToys softRef={scrollToSoftRef} />
       <Teethers teetherRef={scrollToTeethersRef} />
       <DollsToys dollsRef={scrollToDollsRef} />
+      <PlayStationsToys playStationsRef={scrollToPlayStationsRef} />
     </>
   );
 };
