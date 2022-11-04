@@ -9,9 +9,11 @@ import {
   Center,
   Text,
   Image,
+  useColorModeValue,
+  HStack,
 } from '@chakra-ui/react';
 
-const LandingLower = () => {
+const LandingLower = ({ woodClick, softClick, teetherClick, dollsClick }) => {
   const Feature = props => {
     return (
       <Box>
@@ -54,6 +56,47 @@ const LandingLower = () => {
 
   return (
     <>
+      <Center>
+        <Box
+          maxW={'4xl'}
+          px={10}
+          py={2}
+          mt={24}
+          borderBottom={2}
+          borderTop={2}
+          borderStyle={'solid'}
+          borderColor={useColorModeValue('green.600')}
+        >
+          <HStack spacing={10} fontSize={'sm'} fontWeight={'500'}>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => woodClick()}
+            >
+              Wood
+            </Text>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => softClick()}
+            >
+              Soft + Cloth
+            </Text>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => teetherClick()}
+            >
+              Teethers
+            </Text>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => dollsClick()}
+            >
+              Dolls
+            </Text>
+            <Text _hover={{ transform: 'scale(1.1)' }}>Play Stations</Text>
+          </HStack>
+        </Box>
+      </Center>
+
       <Box pt={10} px={32}>
         <Center>
           <Flex

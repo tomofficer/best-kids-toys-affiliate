@@ -10,7 +10,7 @@ import {
   Center,
 } from '@chakra-ui/react';
 
-const SoftToys = () => {
+const SoftToys = ({ softRef }) => {
   //data set for toys
   const toyData = [
     {
@@ -58,7 +58,7 @@ const SoftToys = () => {
   return (
     <>
       <Center>
-        <Box maxW={'4xl'} py={10} px={20}>
+        <Box maxW={'4xl'} py={10} px={20} ref={softRef}>
           <Heading as="h2" size="2xl" mt={6} mb={6}>
             Organic, Eco-Friendly Soft And Cloth Toys
           </Heading>

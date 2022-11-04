@@ -10,7 +10,7 @@ import {
   Center,
 } from '@chakra-ui/react';
 
-const WoodToys = ({ woodRef }) => {
+const DollsToys = ({ dollsRef }) => {
   //data set for toys
   const toyData = [
     {
@@ -58,9 +58,9 @@ const WoodToys = ({ woodRef }) => {
   return (
     <>
       <Center>
-        <Box maxW={'4xl'} py={10} px={20} ref={woodRef}>
+        <Box maxW={'4xl'} py={10} px={20} ref={dollsRef}>
           <Heading as="h2" size="2xl" mt={6} mb={6}>
-            Natural Wood Toys
+            Organic Dye-free Dolls
           </Heading>
           <Heading fontSize={'xl'} mt={2} mb={4}>
             The benefits of buying durable, safe wooden toys over cheaply made
@@ -151,4 +151,4 @@ const WoodToys = ({ woodRef }) => {
   );
 };
 
-export default WoodToys;
+export default DollsToys;

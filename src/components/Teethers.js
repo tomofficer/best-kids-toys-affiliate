@@ -10,7 +10,7 @@ import {
   Center,
 } from '@chakra-ui/react';
 
-const Teethers = () => {
+const Teethers = ({ teetherRef }) => {
   //data set for toys
   const toyData = [
     {
@@ -58,7 +58,7 @@ const Teethers = () => {
   return (
     <>
       <Center>
-        <Box maxW={'4xl'} py={10} px={20}>
+        <Box maxW={'4xl'} py={10} px={20} ref={teetherRef}>
           <Heading as="h2" size="2xl" mt={6} mb={6}>
             Natural BPA Free Baby Teethers
           </Heading>
