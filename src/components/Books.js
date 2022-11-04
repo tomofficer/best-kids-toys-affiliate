@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import ArticleBooks from './ArticleBooks';
+import EducationalBooks from './EducationalBooks';
 import FunBooks from './FunBooks';
 import LandingLowerBooks from './LandingLowerBooks';
 
@@ -34,9 +35,13 @@ const Books = () => {
 
   return (
     <>
-      <LandingLowerBooks funnyClick={scrollToFunnyHandle} />
+      <LandingLowerBooks
+        funnyClick={scrollToFunnyHandle}
+        educationalClick={scrollToEducationalHandle}
+      />
       <ArticleBooks />
       <FunBooks funnyRef={scrollToFunnyRef} />
+      <EducationalBooks educationalRef={scrollToEducationalRef} />
     </>
   );
 };

@@ -124,7 +124,7 @@ const LandingLower = ({
               30+ Organic, Eco-Friendly Toys For Tots And Toddlers
             </Heading>
             <Text
-              px={{ base: 2, md: 10, lg: 20 }}
+              px={{ base: 2, md: 10, lg: 32 }}
               mt={8}
               textAlign={'center'}
               w="auto"
@@ -132,7 +132,9 @@ const LandingLower = ({
               Have you been looking for the perfect gift for your baby but sick
               of all the plastics and toxins found in common mainstream toys?
               Well, look no further because you'll love our Eco-Friendly,
-              Organic gift guide specially crafted for the natural baby mama!
+              Organic gift guide specially crafted for the natural baby mama! We
+              personally research, test and review each product we list with the
+              utmost care!
             </Text>
           </Flex>
         </Center>
