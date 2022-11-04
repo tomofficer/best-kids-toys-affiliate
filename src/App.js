@@ -26,11 +26,11 @@ function App() {
       <ChakraProvider theme={theme}>
         <Header />
         <Landing />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
-        </Routes>
+        </Routes> */}
         <Routes>
-          <Route path="/toys" element={<Toys />} />
+          <Route path="/" element={<Toys />} />
         </Routes>
         <Routes>
           <Route path="/books" element={<Books />} />

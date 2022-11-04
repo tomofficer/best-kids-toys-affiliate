@@ -280,7 +280,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Toys',
-    href: '/toys',
+    href: '/',
   },
   {
     label: 'Books',
