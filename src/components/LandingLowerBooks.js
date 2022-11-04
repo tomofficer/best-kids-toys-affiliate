@@ -13,7 +13,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 
-const LandingLowerBooks = ({ funnyClick, educationalClick }) => {
+const LandingLowerBooks = ({ funnyClick, educationalClick, sensoryClick }) => {
   const Feature = props => {
     return (
       <Box>
@@ -80,7 +80,12 @@ const LandingLowerBooks = ({ funnyClick, educationalClick }) => {
             >
               Educational
             </Text>
-            <Text _hover={{ transform: 'scale(1.1)' }}>Sensory</Text>
+            <Text
+              _hover={{ transform: 'scale(1.1)' }}
+              onClick={() => sensoryClick()}
+            >
+              Sensory
+            </Text>
             <Text _hover={{ transform: 'scale(1.1)' }}>Caldecott Award</Text>
             <Text _hover={{ transform: 'scale(1.1)' }}>Newbury Award</Text>
           </HStack>

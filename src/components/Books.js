@@ -3,6 +3,8 @@ import ArticleBooks from './ArticleBooks';
 import EducationalBooks from './EducationalBooks';
 import FunBooks from './FunBooks';
 import LandingLowerBooks from './LandingLowerBooks';
+import ScrollToTop from './ScrollToTop';
+import SensoryBooks from './SensoryBooks';
 
 const Books = () => {
   //useRef
@@ -38,10 +40,13 @@ const Books = () => {
       <LandingLowerBooks
         funnyClick={scrollToFunnyHandle}
         educationalClick={scrollToEducationalHandle}
+        sensoryClick={scrollToSensoryHandle}
       />
       <ArticleBooks />
       <FunBooks funnyRef={scrollToFunnyRef} />
       <EducationalBooks educationalRef={scrollToEducationalRef} />
+      <SensoryBooks sensoryRef={scrollToSensoryRef} />
+      <ScrollToTop />
     </>
   );
 };
