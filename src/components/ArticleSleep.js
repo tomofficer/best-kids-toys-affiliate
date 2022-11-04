@@ -56,7 +56,7 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = props => {
   );
 };
 
-const ArticleToys = () => {
+const ArticleSleep = () => {
   return (
     <Container maxW={'4xl'} px="20" pb={10}>
       <Divider marginTop="0" />
@@ -70,10 +70,10 @@ const ArticleToys = () => {
           </Box>
         </WrapItem>
       </Wrap>
-      <VStack spacing="2" alignItems="flex-start">
-        <Heading as="h2">Choosing the right toy for your tot</Heading>
+      <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
+        <Heading as="h2">Products to help your little ones sleep</Heading>
         <Heading fontSize={'xl'} marginTop={2} marginBottom={6}>
-          Why it's so important to avoid toxins and chemicals
+          If the kids don't sleep, no one sleeps - am I right?
         </Heading>
         <Text as="p" fontSize="lg" mt={4}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -123,4 +123,4 @@ const ArticleToys = () => {
   );
 };
 
-export default ArticleToys;
+export default ArticleSleep;

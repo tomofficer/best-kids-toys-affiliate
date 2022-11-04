@@ -10,7 +10,7 @@ import {
   Center,
 } from '@chakra-ui/react';
 
-const SensoryBooks = ({ sensoryRef }) => {
+const SwaddlesSleep = ({ swaddlesRef }) => {
   //data set for toys
   const toyData = [
     {
@@ -58,10 +58,10 @@ const SensoryBooks = ({ sensoryRef }) => {
 
   return (
     <>
-      <Center ref={sensoryRef}>
+      <Center ref={swaddlesRef}>
         <Box maxW={'4xl'} py={10} px={20}>
           <Heading as="h2" size="2xl" mt={14} mb={6}>
-            Most Engaging Sensory Books For Your Tot
+            Organic, Extra Soft And Extra Effective Baby Swaddles
           </Heading>
           <Heading fontSize={'xl'} mt={2} mb={4}>
             The benefits of buying durable, safe wooden toys over cheaply made
@@ -151,4 +151,4 @@ const SensoryBooks = ({ sensoryRef }) => {
   );
 };
 
-export default SensoryBooks;
+export default SwaddlesSleep;

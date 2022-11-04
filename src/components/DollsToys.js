@@ -59,7 +59,7 @@ const DollsToys = ({ dollsRef }) => {
     <>
       <Center>
         <Box maxW={'4xl'} py={10} px={20} ref={dollsRef}>
-          <Heading as="h2" size="2xl" mt={6} mb={6}>
+          <Heading as="h2" size="2xl" mt={14} mb={6}>
             Organic Dye-free Dolls
           </Heading>
           <Heading fontSize={'xl'} mt={2} mb={4}>
