@@ -24,6 +24,7 @@ const Landing = () => {
         src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/bee2_43f8sCiuZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667475601713"
       /> */}
       <Image
+        zIndex={-1}
         position="absolute"
         ml={'60.8%'}
         mt={'19%'}

@@ -108,7 +108,11 @@ const LandingLower = ({
         </Box>
       </Center>
 
-      <Box pt={10} px={32}>
+      <Box
+        pt={10}
+        px={32}
+        // maxW="4xl"
+      >
         <Center>
           <Flex
             flexDirection={'column'}
@@ -116,7 +120,7 @@ const LandingLower = ({
             alignItems="center"
             p={10}
           >
-            <Heading>
+            <Heading textAlign={'center'}>
               30+ Organic, Eco-Friendly Toys For Tots And Toddlers
             </Heading>
             <Text

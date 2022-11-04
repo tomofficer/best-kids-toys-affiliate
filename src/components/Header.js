@@ -28,7 +28,10 @@ export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box
+    // position={'sticky'}
+    // top={0}
+    >
       <Flex
         bg={useColorModeValue('white')}
         color={useColorModeValue('gray.600', 'white')}
@@ -158,42 +161,44 @@ const DesktopNav = () => {
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
   return (
-    <Link
-      href={href}
-      role={'group'}
-      display={'block'}
-      p={2}
-      rounded={'md'}
-      _hover={{ bg: useColorModeValue('blue.200', 'gray.900') }}
-    >
-      <Stack direction={'row'} align={'center'}>
-        <Box>
-          <div>
-            <Text
-              transition={'all .3s ease'}
-              _groupHover={{ color: 'white' }}
-              fontWeight={500}
-            >
-              {label}
-            </Text>
-            <Text fontSize={'sm'} color={'black'} _hover={{ color: 'white' }}>
-              {subLabel}
-            </Text>
-          </div>
-        </Box>
-        <Flex
-          transition={'all .3s ease'}
-          transform={'translateX(-10px)'}
-          opacity={0}
-          _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
-          justify={'flex-end'}
-          align={'center'}
-          flex={1}
-        >
-          {/* <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} /> */}
-        </Flex>
-      </Stack>
-    </Link>
+    <Box>
+      <Link
+        href={href}
+        role={'group'}
+        display={'block'}
+        p={2}
+        rounded={'md'}
+        _hover={{ bg: useColorModeValue('blue.200', 'gray.900') }}
+      >
+        <Stack direction={'row'} align={'center'}>
+          <Box>
+            <div>
+              <Text
+                transition={'all .3s ease'}
+                _groupHover={{ color: 'white' }}
+                fontWeight={500}
+              >
+                {label}
+              </Text>
+              <Text fontSize={'sm'} color={'black'} _hover={{ color: 'white' }}>
+                {subLabel}
+              </Text>
+            </div>
+          </Box>
+          <Flex
+            transition={'all .3s ease'}
+            transform={'translateX(-10px)'}
+            opacity={0}
+            _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
+            justify={'flex-end'}
+            align={'center'}
+            flex={1}
+          >
+            {/* <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} /> */}
+          </Flex>
+        </Stack>
+      </Link>
+    </Box>
   );
 };
 
@@ -274,7 +279,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: 'Home',
-    href: '/',
+    href: '#',
   },
   {
     label: 'Toys',
@@ -293,14 +298,9 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/sleep',
   },
   {
-    label: 'Nursing',
-    href: '/nursing',
+    label: 'Baby And Me',
+    href: '/baby-and-me',
   },
-  {
-    label: 'Changing',
-    href: '/changing',
-  },
-
   {
     label: 'About',
     href: '/about',
