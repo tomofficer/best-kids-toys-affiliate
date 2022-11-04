@@ -14,45 +14,45 @@ const SensoryBooks = ({ sensoryRef }) => {
   //data set for toys
   const toyData = [
     {
-      category: 'Educational Books',
-      title:
-        'My First Complete Learning Library: Boxset of 20 Board Books for Kids',
+      category: 'Sensory Books',
+      title: 'Beiens Non Toxic Fabric Early Educational Stimulation Book',
       description:
-        'Well-researched pictures and accurate word labels encourages the ensure faster development of a child s vocabulary. First learning library of 20 board books to introduce wide range of learning topics and to develop basic concepts for little scholars.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/library20_c4acay0df.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1667542577036',
-      url: 'https://www.amazon.com/First-Learning-Library-Box-Set/dp/9388369882/ref=sr_1_2_sspa?keywords=educational+books+for+toddlers&qid=1667542404&qu=eyJxc2MiOiI1Ljg0IiwicXNhIjoiNS41OSIsInFzcCI6IjUuMjYifQ%3D%3D&sprefix=educational+books+for+to%2Caps%2C263&sr=8-2-spons&psc=1',
+        "Capturing Your Child's Attention: Baby boys or girls love these early learning toys. There are crinkle paper and bibi sounder hiding in the pages, which encourage baby to explore and gives baby endless hours of fun. The bright colors and contrast background will attract baby's attention",
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/sensory1_butGO9sjI.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667546333565',
+      url: 'https://www.amazon.com/beiens-Contrast-NonToxic-Educational-Stimulation/dp/B0892JY6NZ/ref=sr_1_8?crid=STBWGXOPB6T4&keywords=organic%2Bsensory%2Bbooks%2Bfor%2Bbabies&qid=1667546241&s=toys-and-games&sprefix=organic%2Bsensorybooks%2Bfor%2Bbabies%2Ctoys-and-games%2C186&sr=1-8&th=1',
     },
     {
-      category: 'Educational Books',
-      title: 'My First 1000 Words',
+      category: 'Sensory Books',
+      title: 'iPlay, iLearn Montessori 2 pcs Sensory Book Set',
       description:
-        'An excellent book to introduce wide range of learning topics and everyday objects to the little scholars. The book has 1000 attractive and well-researched photos making it the ideal book for toddlers and babies to learn simple words and develop observational skills.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/firstwords_KGfCUI8dr.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1667542823107',
-      url: 'https://www.amazon.com/dp/9388144112/ref=sspa_dk_detail_1?psc=1&pd_rd_i=9388144112&pd_rd_w=Wy2q5&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=WFQSAXAVTR3B5JE11YKD&pd_rd_wg=76dyw&pd_rd_r=47d7e97e-2cdf-4fbf-987b-b6c76d571d30&s=books&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
+        'Comes with 2 busy books, Food for Joy and Happy Farm, which includes colors, animals, numbers, fruits & vegetables, cars and so on. Make learning more fun for toddlers.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/sensory3_9XTJY0M6r.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667546729707',
+      url: 'https://www.amazon.com/iPlay-iLearn-Kids-Animal-Learning/dp/B09LHMMW1H/ref=sr_1_3_sspa?crid=3BA295PNBB5VD&keywords=organic+sensory+books&qid=1667546669&s=toys-and-games&sprefix=sensory+books+%2Ctoys-and-games%2C174&sr=1-3-spons&psc=1',
     },
     {
-      category: 'Educational Books',
-      title: 'Han-MM Preschool Montessori Toy Book With 8 Color Marker',
+      category: 'Sensory Books',
+      title: 'TeyToy My First Soft Book Non-Toxic Fabric',
       description:
-        'Not every child has super learning ability, they need to learn while playing. To understand thinking, perceive colors, and enhance logical knowledge. This busy book game is an excellent educational toy developed for children over 3 years old',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/montessori_SWCXDoiXm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667543117699',
-      url: 'https://www.amazon.com/HAN-MM-Montessori-Toddlers-Activity-Educational/dp/B08CZQC78D/ref=sr_1_10?crid=243YA7UG5DHM6&keywords=educational%2Bbook%2Bfor%2Btoddlers&qid=1667542970&qu=eyJxc2MiOiIwLjAwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=educational%2Bbook%2Bfor%2Btoddlers%2Caps%2C633&sr=8-10&th=1',
+        'Baby first book teaches your little one how different things feel by touch with these soft High Contrast Books, Before they are able to clearly see colors, babies respond to the strong contrast between black and white, which makes this the perfect first book for young, developing brains. ',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/sensory2_oB9SXx2C0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667546553229',
+      url: 'https://www.amazon.com/teytoy-Nontoxic-Activity-Crinkle-Educational/dp/B07ZGHF8WV/ref=sr_1_10?crid=TTH621D5CO9V&keywords=non+toxic+sensory+books&qid=1667546489&s=toys-and-games&sprefix=non+toxic+sensory+books%2Ctoys-and-games%2C181&sr=1-10',
+    },
+
+    {
+      category: 'Sensory Books',
+      title: 'Montessori Autism Sensory Busy Book For Kids',
+      description:
+        'We Designed 12 Themes for Toddler Learning Activities Ages 2-4, Including Colors, Letters, Numbers, Rainbow, Shapes, Dinosaur, Vehicle, Weather, Match The Pictures, Cognition of Facial, Vegetables, Fruits, and Planets Etc.',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/sensory4_AzAeI5nTS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667546862284',
+      url: 'https://www.amazon.com/dp/B0992B1LYN/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0992B1LYN&pd_rd_w=zdTMx&content-id=amzn1.sym.dd2c6db7-6626-466d-bf04-9570e69a7df0&pf_rd_p=dd2c6db7-6626-466d-bf04-9570e69a7df0&pf_rd_r=QHSQP6GJVFA7HEETWB38&pd_rd_wg=A2jLa&pd_rd_r=ba99363c-9977-4b07-8006-723a8fae4334&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNlhJMDFYQzdSVTAyJmVuY3J5cHRlZElkPUEwNTI2ODM0MUlBMFNTN1JYTzI0RiZlbmNyeXB0ZWRBZElkPUEwMjk3MTg5MVlGNFpYRDI2TzhUMyZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=',
     },
     {
-      category: 'Educational Books',
-      title: '4 Pack Montessori Busy Book for Kids to Develop Learning Skills',
+      category: 'Sensory Books',
+      title: 'LeapFrog Learning Friends 100 Words Book',
       description:
-        'Great for Educational: This Montessori Busy Book is Made for Kids to Help Prepare Them for School. 4 Pack of Themes are Animal , Number, Vegetable, Traffic Cognition Busy Book.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/4pack_m4P3qu0zX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667543296457',
-      url: 'https://www.amazon.com/Montessori-Materials-Homeschool-Preschool-Educational/dp/B0B1WBF253/ref=sr_1_4?crid=2DGX7VG8M17O&keywords=montessori%2Bbooks%2Bfor%2Btoddlers&qid=1667543235&qu=eyJxc2MiOiI1LjU5IiwicXNhIjoiNS4zNyIsInFzcCI6IjUuMTgifQ%3D%3D&s=toys-and-games&sprefix=montessori%2Bbooks%2Bfor%2Btoddle%2Ctoys-and-games%2C208&sr=1-4&th=1',
-    },
-    {
-      category: 'Educational Books',
-      title: 'Washable Montessori Toddlers Busy Board 3d Story Book',
-      description:
-        'The montessori busy book old can help toddlers to develop their fine motor skills. This busy board book features with 16 learning activities, when playing this busy board, toddlers focus on like matching the velcro colored shapes, practice on the zippers snaps and buttons toy, telling time and others.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/3dbook_bi3C_oGhl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667543467422',
-      url: 'https://www.amazon.com/Washable-Montessori-Toddlers-Education-Knowledge/dp/B0B2MVZBK6/ref=sr_1_11?keywords=montessori+books+for+toddlers&qid=1667543411&qu=eyJxc2MiOiI1LjU5IiwicXNhIjoiNS4zNyIsInFzcCI6IjUuMTgifQ%3D%3D&s=toys-and-games&sr=1-11',
+        'Interact with friends and learn through play! Explore the colorful pages in this interactive baby book and touch each picture to hear the animals say toddler-appropriate words along with exciting facts and sound effects. Immerse your child in bilingual play by sliding the language switch to hear the words, songs and instructions in both English and Spanish. ',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/sensory5_morQW3s9e.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667547050099',
+      url: 'https://www.amazon.com/LeapFrog-Learning-Friends-Frustration-Packaging/dp/B07CCFDZZ3/ref=sr_1_22?crid=1WSEI6I58DO0F&keywords=sensory+books&qid=1667546969&qu=eyJxc2MiOiI2LjEwIiwicXNhIjoiNS42OCIsInFzcCI6IjUuNDMifQ%3D%3D&s=toys-and-games&sprefix=sensory+books%2Ctoys-and-games%2C209&sr=1-22',
     },
   ];
 

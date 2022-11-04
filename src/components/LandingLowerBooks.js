@@ -92,7 +92,7 @@ const LandingLowerBooks = ({ funnyClick, educationalClick, sensoryClick }) => {
         </Box>
       </Center>
 
-      <Box pt={0} px={32}>
+      <Box pt={10} px={32}>
         <Center>
           <Flex
             flexDirection={'column'}

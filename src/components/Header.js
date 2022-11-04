@@ -28,10 +28,7 @@ export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box
-    // position={'sticky'}
-    // top={0}
-    >
+    <Box position={'sticky'} top={0}>
       <Flex
         bg={useColorModeValue('white')}
         color={useColorModeValue('gray.600', 'white')}
@@ -68,7 +65,7 @@ export default function WithSubnavigation() {
             color={useColorModeValue('gray.800', 'white')}
           >
             <Image
-              w="150px"
+              w="130px"
               ml={4}
               src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
             />

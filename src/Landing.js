@@ -39,6 +39,16 @@ const Landing = () => {
           />
         </Center>
       </Box>
+      {/* GREEN VERSION */}
+      {/* <Box py={10}>
+        <Center>
+          <Image
+            w={'450px'}
+            mr={0}
+            src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2green_MxrGbN1uj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667547384539"
+          />
+        </Center>
+      </Box> */}
 
       {/* <Box w="full">
         <Image src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/woods_Je-JXpY4H.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667468664682" />

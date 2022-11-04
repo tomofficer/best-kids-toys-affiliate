@@ -13,7 +13,7 @@ import {
   HStack,
 } from '@chakra-ui/react';
 
-const LandingLower = ({
+const LandingLowerToys = ({
   woodClick,
   softClick,
   teetherClick,
@@ -149,4 +149,4 @@ const LandingLower = ({
   );
 };
 
-export default LandingLower;
+export default LandingLowerToys;
