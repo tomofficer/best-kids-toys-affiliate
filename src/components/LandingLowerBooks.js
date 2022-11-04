@@ -56,12 +56,15 @@ const LandingLowerBooks = ({ funnyClick, educationalClick, sensoryClick }) => {
 
   return (
     <>
+      <Center mb={4} mt={14}>
+        <Heading fontSize={'3xl'}>Books</Heading>
+      </Center>
+
       <Center>
         <Box
           maxW={'4xl'}
           px={10}
           py={2}
-          mt={24}
           borderBottom={2}
           borderTop={2}
           borderStyle={'solid'}

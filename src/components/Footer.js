@@ -84,6 +84,7 @@ export default function Footer() {
       >
         <Center>
           <Image
+            mb={4}
             w="200px"
             src="https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/mamabearlogo2_pIM5D4jSP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667468045625"
           />
@@ -93,8 +94,9 @@ export default function Footer() {
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>Toys</Link>
           <Link href={'#'}>Books</Link>
-          <Link href={'#'}>Bath</Link>
           <Link href={'#'}>Sleep</Link>
+          <Link href={'#'}>Bath</Link>
+
           <Link href={'#'}>Baby And Me</Link>
           <Link href={'#'}>About</Link>
         </Stack>

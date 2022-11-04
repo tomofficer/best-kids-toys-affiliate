@@ -287,13 +287,14 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/books',
   },
   {
-    label: 'Bath',
-    href: '/bath',
-  },
-  {
     label: 'Sleep',
     href: '/sleep',
   },
+  {
+    label: 'Bath',
+    href: '/bath',
+  },
+
   {
     label: 'Baby And Me',
     href: '/baby-and-me',
