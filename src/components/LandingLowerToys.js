@@ -71,6 +71,7 @@ const LandingLowerToys = ({
           maxW={'4xl'}
           px={10}
           py={2}
+          // mt={24}
           borderBottom={2}
           borderTop={2}
           borderStyle={'solid'}

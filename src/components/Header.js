@@ -295,10 +295,10 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/bath',
   },
 
-  {
-    label: 'Baby And Me',
-    href: '/baby-and-me',
-  },
+  // {
+  //   label: 'Baby And Me',
+  //   href: '/baby-and-me',
+  // },
   {
     label: 'About',
     href: '/about',
