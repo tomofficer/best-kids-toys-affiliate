@@ -95,10 +95,9 @@ export default function Footer() {
           <Link href={'#'}>Toys</Link>
           <Link href={'#'}>Books</Link>
           <Link href={'#'}>Sleep</Link>
-          <Link href={'#'}>Bath</Link>
-
+          {/* <Link href={'#'}>Bath</Link>
           <Link href={'#'}>Baby And Me</Link>
-          <Link href={'#'}>About</Link>
+          <Link href={'#'}>About</Link> */}
         </Stack>
       </Container>
 
