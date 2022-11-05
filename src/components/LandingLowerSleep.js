@@ -85,7 +85,6 @@ const LandingLowerSleep = ({ sleepSackClick, swaddleClick }) => {
             </Text>
             <Text _hover={{ transform: 'scale(1.1)' }}>Bassinets</Text>
             <Text _hover={{ transform: 'scale(1.1)' }}>Night Lights</Text>
-            <Text _hover={{ transform: 'scale(1.1)' }}>Blankets + Toys</Text>
           </HStack>
         </Box>
       </Center>

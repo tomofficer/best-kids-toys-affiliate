@@ -43,14 +43,14 @@ const Toys = () => {
         woodClick={scrollToWoodHandle}
         softClick={scrollToSoftHandle}
         teetherClick={scrollToTeethersHandle}
-        dollsClick={scrollToDollsHandle}
+        // dollsClick={scrollToDollsHandle}
         playStationsClick={scrollToPlayStationsHandle}
       />
       <ArticleToys />
       <WoodToys woodRef={scrollToWoodRef} />
       <SoftToys softRef={scrollToSoftRef} />
       <Teethers teetherRef={scrollToTeethersRef} />
-      <DollsToys dollsRef={scrollToDollsRef} />
+      {/* <DollsToys dollsRef={scrollToDollsRef} /> */}
       <PlayStationsToys playStationsRef={scrollToPlayStationsRef} />
       <ScrollToTop />
     </>

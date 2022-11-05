@@ -83,13 +83,16 @@ export default function WithSubnavigation() {
           spacing={6}
         >
           <Button
+            as={'a'}
+            href="https://us17.list-manage.com/contact-form?u=bace8e94c51a1081535471d04&form_id=4bd72255876a0829d0e41878a65b1413"
+            target={'_blank'}
             mr={6}
+            textDecoration="none"
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
             bg={'green.600'}
-            href={'#'}
             _hover={{
               bg: 'green.500',
               transform: 'scale(1.1)',
@@ -290,17 +293,16 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Sleep',
     href: '/sleep',
   },
-  {
-    label: 'Bath',
-    href: '/bath',
-  },
-
+  // {
+  //   label: 'Bath',
+  //   href: '/bath',
+  // },
   // {
   //   label: 'Baby And Me',
   //   href: '/baby-and-me',
   // },
-  {
-    label: 'About',
-    href: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   href: '/about',
+  // },
 ];

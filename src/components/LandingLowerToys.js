@@ -96,12 +96,12 @@ const LandingLowerToys = ({
             >
               Teethers
             </Text>
-            <Text
+            {/* <Text
               _hover={{ transform: 'scale(1.1)' }}
               onClick={() => dollsClick()}
             >
               Dolls
-            </Text>
+            </Text> */}
             <Text
               _hover={{ transform: 'scale(1.1)' }}
               onClick={() => playStationsClick()}
