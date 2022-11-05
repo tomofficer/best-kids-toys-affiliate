@@ -14,44 +14,36 @@ const PlayStationsToys = ({ playStationsRef }) => {
   //data set for toys
   const toyData = [
     {
-      category: 'Wooden Toys',
-      title: 'Haba Eggs',
+      category: 'Play Stations Toys',
+      title: 'Avenlur Natural Montessori Indoor Gym Playset',
       description:
-        'Four multi-colored wooden eggs that make a different sound when shaken!',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/habaeggs_evphepGx_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667028754580',
-      url: 'https://www.amazon.com/HABA-Musical-Eggs-Acoustic-Germany/dp/B00BF3D666/ref=sr_1_7?crid=2Z1KKBC0NWY2R&keywords=haba&qid=1667028707&qu=eyJxc2MiOiI3LjUyIiwicXNhIjoiNy4yMCIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=natural+baby+toys%2Caps%2C456&sr=8-7',
+        "THE ULTIMATE CLIMBING SET - helps developing independence: children work on the improvement of their motor skills, explore their body limits in a safe manner and encourage children's imagination.",
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/playstation1_oFloqPgzI.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667624423068',
+      url: 'https://www.amazon.com/dp/B094795S6S/ref=sspa_dk_detail_6?pd_rd_i=B094795S6S&pd_rd_w=dsww0&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=2K1CBNQREH15V9N9V20H&pd_rd_wg=sOVmX&pd_rd_r=b172afd0-a05c-4670-b84c-40b2e74f307c&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&smid=A4JMCRH3MBF65&th=1',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Haba Blocks',
+      category: 'Play Station Toys',
+      title: 'CassaroKids Waldorf Natural Wood Climbing PLay Tower With Slide',
       description:
         'Each cube awaits with a different acoustic effect! In this way, early perception and musicality are fostered.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/habablocks_Xo7IvvlL9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667031920901',
-      url: 'https://www.amazon.com/HABA-Sounds-Discovery-Acoustic-Germany/dp/B00BF3CK90/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4%3Aamzn1.sym.9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4&crid=2Z1KKBC0NWY2R&cv_ct_cx=haba&keywords=haba&pd_rd_i=B00BF3CK90&pd_rd_r=8b1fc94a-982c-41d6-a224-42d256b66454&pd_rd_w=toMui&pd_rd_wg=twxJ8&pf_rd_p=9c246b91-3d49-4e6c-8ff6-5b6e9a100bd4&pf_rd_r=VZYB5Q5JRES9W4E2N8XY&qid=1667031865&qu=eyJxc2MiOiI3LjUyIiwicXNhIjoiNy4yMCIsInFzcCI6IjYuMzYifQ%3D%3D&sprefix=natural+baby+toys%2Caps%2C456&sr=1-2-a43b4223-fbe9-48b0-af69-6d70cf84978b-spons&psc=1&smid=A1V3CN8LT5ZFSV',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/playstation2_0OhpSA2AR.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667624832675',
+      url: 'https://www.amazon.com/CASSARO-Convertible-Tower-Slide-Chalkboard/dp/B083MSCQBR/ref=sr_1_4?crid=1PQDSZXECH4IA&keywords=montessori+play+table&qid=1667624720&qu=eyJxc2MiOiI0LjU4IiwicXNhIjoiNC4zNSIsInFzcCI6IjEuOTIifQ%3D%3D&s=toys-and-games&sprefix=montessori+play+tab%2Ctoys-and-games%2C185&sr=1-4&ufe=app_do%3Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3play',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Agirgle Building Blocks',
+      category: 'Play Station Toys',
+      title: 'Montessori Sensory Bin Natural Wood Childrens Play Station',
       description:
-        'Large 8 piece rainbow building block set! Promotes baby awareness of shape and color as well as helps build coordination.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/agirgleblocks_JQmdIw2fS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667032404960',
-      url: 'https://www.amazon.com/dp/B09JFW3YBT/ref=sspa_dk_detail_6?psc=1&pd_rd_i=B09JFW3YBT&pd_rd_w=4GLlH&content-id=amzn1.sym.bff6e147-54ad-4be3-b4ea-ec19ea6167f7&pf_rd_p=bff6e147-54ad-4be3-b4ea-ec19ea6167f7&pf_rd_r=EPP9TAVQ9AWEG0K09VTG&pd_rd_wg=mVae6&pd_rd_r=c3c09365-cb8e-4b57-9c9f-d40c809be1b8&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy',
+        'These toys can provide your children with more entertainment time and encourage them to master good motor skills and develop abilities. You can pour beans, oats, sand in this wooden box..',
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/playstation3_FeWb9BoHk.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667624943489',
+      url: 'https://www.amazon.com/Crisschirs-Montessori-Toddlers-Transfer-Development/dp/B08DHYWR3R/ref=sr_1_22?crid=2KMO3ZRNXA1ZE&keywords=organic+baby+table&qid=1667624888&s=toys-and-games&sprefix=organic+baby+tab%2Ctoys-and-games%2C227&sr=1-22',
     },
     {
-      category: 'Wooden Toys',
-      title: 'Kookaroo Wooden Bee Hive Sorting Toy',
+      category: 'Play Station Toys',
+      title: 'Blue Ginkgo Montessori Waldorf Fine Motor Skills Learning Bin',
       description:
-        "Ignite your child's imagination! Designed for durability and created by teachers for optimal preschool learning growth.",
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/kookaroobeehive_KAoY20d93.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667032941747',
-      url: 'https://www.amazon.com/dp/B09G5MYFN2/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B09G5MYFN2&pd_rd_w=fbMtY&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=DTCD0ZJA7N5REMV02JWZ&pd_rd_wg=QCtww&pd_rd_r=74792612-060e-4a0a-b97e-1e5f17283fbb&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
-    },
-    {
-      category: 'Wooden Toys',
-      title: 'Labebe Wood Rainbow Rocker Chairla',
-      description:
-        'Waldorf rocking play chair for toddlers! Durable, quality wood rocking chair and climbing frame made with Eco-Friendly, safe paint.',
-      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/labeberocker_grakg0f9T.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667033235469',
-      url: 'https://www.amazon.com/dp/B09J4NYQP6/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B09J4NYQP6&pd_rd_w=jYWQN&content-id=amzn1.sym.88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_p=88097cb9-5064-44ef-891b-abfacbc1c44b&pf_rd_r=PV6TAKE43MJ13X0NT704&pd_rd_wg=DxxXM&pd_rd_r=b781e2e6-c33b-4832-a28d-fec1f663a530&s=toys-and-games&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw',
+        "Transfer, Scoop, and Play! This set of toddler-sized wooden kitchen tools make a perfect addition to any toddler's sensory box. Play with these wooden toys and your sensory bin favorites like beans and colorful rice support the development of hand-eye coordination, fine motor skills, and a childs confidence.",
+      img: 'https://ik.imagekit.io/v66nb6oaq/Best_Kids_Toys/playstation4_Qvg784USl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667625208001',
+      url: 'https://www.amazon.com/BLUE-GINKGO-Sensory-Bin-Tools/dp/B08S3KKVJR/ref=sr_1_30_sspa?crid=I6DX808IU52F&keywords=natural+wood+play+table&qid=1667625135&qu=eyJxc2MiOiIxLjk0IiwicXNhIjoiMi4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=toys-and-games&sprefix=natural+wood+play+tabl%2Ctoys-and-games%2C190&sr=1-30-spons&psc=1',
     },
   ];
 
